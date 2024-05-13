@@ -1,18 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\",
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{33D2F5EE-7438-4E87-8424-F30FDDB24A79}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{33D2F5EE-7438-4E87-8424-F30FDDB24A79}|QuickBite.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Data\\Migrations\\20240510210909_trecaMigracija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20240510210909_trecaMigracija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33D2F5EE-7438-4E87-8424-F30FDDB24A79}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33D2F5EE-7438-4E87-8424-F30FDDB24A79}|QuickBite.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\quickbite\\models\\usluznajedinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|solutionrelative:models\\usluznajedinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33D2F5EE-7438-4E87-8424-F30FDDB24A79}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33D2F5EE-7438-4E87-8424-F30FDDB24A79}|QuickBite.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\quickbite\\models\\salata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|solutionrelative:models\\salata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\quickbite\\models\\proizvodnarudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|solutionrelative:models\\proizvodnarudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\quickbite\\models\\proizvod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|solutionrelative:models\\proizvod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\quickbite\\models\\narudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|solutionrelative:models\\narudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\quickbite\\models\\naplata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|solutionrelative:models\\naplata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\quickbite\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|solutionrelative:models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\quickbite\\models\\dodatak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|solutionrelative:models\\dodatak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\quickbite\\models\\kategorija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|solutionrelative:models\\kategorija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\quickbite\\models\\zacin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|solutionrelative:models\\zacin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\quickbite\\models\\vrstanaplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|solutionrelative:models\\vrstanaplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\quickbite\\models\\sos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|solutionrelative:models\\sos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\quickbite\\data\\migrations\\20240510204415_drugamigracija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|solutionrelative:data\\migrations\\20240510204415_drugamigracija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\quickbite\\data\\migrations\\20240510192527_prvamigracija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|solutionrelative:data\\migrations\\20240510192527_prvamigracija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\quickbite\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\quickbite\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|solutionrelative:data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\quickbite\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\quickbite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|c:\\users\\lenovo\\source\\repos\\quickbite\\quickbite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2952E22A-0846-4A64-AB1F-3C9DFEB940C4}|QuickBite.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,41 +95,260 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-02T14:17:19.893Z",
+              "Title": "20240510210909_trecaMigracija.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Data\\Migrations\\20240510210909_trecaMigracija.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240510210909_trecaMigracija.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Data\\Migrations\\20240510210909_trecaMigracija.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240510210909_trecaMigracija.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T21:09:09.398Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "Naplata.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\Naplata.cs",
+              "RelativeDocumentMoniker": "Models\\Naplata.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\Naplata.cs",
+              "RelativeToolTip": "Models\\Naplata.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T14:17:13.198Z",
+              "WhenOpened": "2024-05-10T19:03:05.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Narudzba.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\Narudzba.cs",
+              "RelativeDocumentMoniker": "Models\\Narudzba.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\Narudzba.cs",
+              "RelativeToolTip": "Models\\Narudzba.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T19:03:59.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Proizvod.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\Proizvod.cs",
+              "RelativeDocumentMoniker": "Models\\Proizvod.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\Proizvod.cs",
+              "RelativeToolTip": "Models\\Proizvod.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T19:04:20.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProizvodNarudzba.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\ProizvodNarudzba.cs",
+              "RelativeDocumentMoniker": "Models\\ProizvodNarudzba.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\ProizvodNarudzba.cs",
+              "RelativeToolTip": "Models\\ProizvodNarudzba.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T19:04:53.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "Title": "Salata.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\Salata.cs",
+              "RelativeDocumentMoniker": "Models\\Salata.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\Salata.cs",
+              "RelativeToolTip": "Models\\Salata.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T19:05:18.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsluznaJedinica.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\UsluznaJedinica.cs",
+              "RelativeDocumentMoniker": "Models\\UsluznaJedinica.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\UsluznaJedinica.cs",
+              "RelativeToolTip": "Models\\UsluznaJedinica.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAgwA8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T19:05:57.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Korisnik.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\Korisnik.cs",
+              "RelativeDocumentMoniker": "Models\\Korisnik.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\Korisnik.cs",
+              "RelativeToolTip": "Models\\Korisnik.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T19:03:36.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dodatak.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\Dodatak.cs",
+              "RelativeDocumentMoniker": "Models\\Dodatak.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\Dodatak.cs",
+              "RelativeToolTip": "Models\\Dodatak.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T19:02:13.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Kategorija.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\Kategorija.cs",
+              "RelativeDocumentMoniker": "Models\\Kategorija.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\Kategorija.cs",
+              "RelativeToolTip": "Models\\Kategorija.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T19:02:43.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Zacin.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\Zacin.cs",
+              "RelativeDocumentMoniker": "Models\\Zacin.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\Zacin.cs",
+              "RelativeToolTip": "Models\\Zacin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T19:06:39.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VrstaNaplate.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\VrstaNaplate.cs",
+              "RelativeDocumentMoniker": "Models\\VrstaNaplate.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\VrstaNaplate.cs",
+              "RelativeToolTip": "Models\\VrstaNaplate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T19:06:21.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Sos.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\Sos.cs",
+              "RelativeDocumentMoniker": "Models\\Sos.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\Sos.cs",
+              "RelativeToolTip": "Models\\Sos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T19:05:35.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240510204415_drugaMigracija.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Data\\Migrations\\20240510204415_drugaMigracija.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240510204415_drugaMigracija.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Data\\Migrations\\20240510204415_drugaMigracija.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240510204415_drugaMigracija.cs",
+              "ViewState": "AQIAANAAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T20:44:15.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240510192527_prvaMigracija.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Data\\Migrations\\20240510192527_prvaMigracija.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240510192527_prvaMigracija.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Data\\Migrations\\20240510192527_prvaMigracija.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240510192527_prvaMigracija.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T19:25:28.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T14:16:58.322Z",
+              "WhenOpened": "2024-05-10T19:56:57.532Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T19:56:32.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T18:51:50.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-10T18:44:09.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\source\\repos\\QuickBite\\QuickBite\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T18:49:47.298Z"
             }
           ]
         }
