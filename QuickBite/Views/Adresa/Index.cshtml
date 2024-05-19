@@ -1,0 +1,97 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokacija</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .bg-image {
+            /* The image used */
+            background-image: url('~/images/sarajevomap.webp.png');
+            /* Full height */
+            height: 100%;
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* Create an overlay effect */
+            position: relative;
+            opacity: 0.8;
+        }
+
+        .form-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+            .form-container h1 {
+                font-size: 24px;
+                margin-bottom: 20px;
+                color: #333;
+                text-align: center;
+            }
+
+            .form-container label {
+                display: block;
+                margin-bottom: 5px;
+                color: #555;
+            }
+
+            .form-container input {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            .form-container button {
+                width: 100%;
+                padding: 10px;
+                background-color: #16A085;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+
+                .form-container button:hover {
+                    background-color: #138D75;
+                }
+    </style>
+</head>
+<body>
+    <div class="bg-image"></div>
+    <div class="form-container">
+        <h1>Unesi adresu</h1>
+        <form>
+            <label for="address">Adresa</label>
+            <input type="text" id="address" name="address" placeholder="Unesi adresu" required>
+
+           
+           
+            <button type="submit">Potvrdi</button>
+        </form>
+    </div>
+</body>
+</html>
