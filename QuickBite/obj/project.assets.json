@@ -8601,19 +8601,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Umihana Šečunović\\.nuget\\packages\\": {}
+    "C:\\Users\\LENOVO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\QuickBite-Tim17\\QuickBite\\QuickBite.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\QuickBite.csproj",
       "projectName": "QuickBite",
-      "projectPath": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\QuickBite-Tim17\\QuickBite\\QuickBite.csproj",
-      "packagesPath": "C:\\Users\\Umihana Šečunović\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\QuickBite-Tim17\\QuickBite\\obj\\",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\QuickBite.csproj",
+      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Umihana Šečunović\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8621,7 +8621,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

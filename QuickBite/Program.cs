@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using QuickBite.Data;
+using QuickBite.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -41,3 +42,8 @@ app.MapControllerRoute(
 app.MapRazorPages();
 
 app.Run();
+
+builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+options.SignIn.RequireConfirmedAccount = true)
+ .AddRoles<IdentityRole>()
+ .AddEntityFrameworkStores<ApplicationDbContext>();

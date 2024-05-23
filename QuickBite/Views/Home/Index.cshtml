@@ -2,7 +2,171 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<style>
+import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+section{
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url('/images/startpage.jpg');
+    background-repeat: no-repeat;
+    background-size:32%;
+    background-position: left 150px top 30px;
+}
+
+.logo-image{
+    width: 85px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.logo{
+    display: flex;
+    margin-left: -120px;
+}
+
+.search-bar {
+    position: absolute;
+    top: 120px;
+    left: 720px;
+    width: 420px;
+    height: 60px;
+    background-image: url('/images/ikonica-lupe.png');
+    background-size: 40px; 
+    background-position: 10px center; 
+    background-repeat: no-repeat; 
+    border: 3px solid #c3c0c0;
+    border-radius: 4px;
+    padding-left: 60px; 
+}
+
+.search-bar input[type="text"] {
+    width: 100%; 
+    height: 100%; 
+    border: none; 
+    outline: none;
+    background: transparent; 
+}
+
+.reklama{
+    position: absolute;
+    top: 200px;
+    left: 720px;
+}
+
+.reklama p {
+    font-size: 36px; 
+    color: #000000; 
+    font-weight:600;
+    line-height: 1.2;
+}
+
+.reklama .quickbite {
+    color: #00a082; 
+}
+
+.specijalna-ponuda {
+    position: fixed;
+    max-width: 220px;
+    flex-direction: column;
+    bottom: 0;
+    width: 100%; 
+    padding: 20px;
+    background-color: #00a082;
+    display: flex;
+    align-items: flex-start; 
+    z-index: 1;
+}
+
+.specijalna-ponuda h3 {
+    font-size: 24px;
+    font-style:italic;
+    white-space: nowrap;
+    font-weight: 600;
+    text-align:left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+    .slike {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+        .slike a {
+            flex-shrink: 0;
+        }
+
+        .slike img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+body::after {
+    content: "";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 227.5px;
+    background-color: #00a082;
+    z-index: -1;
+}
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Start page design</title>
+</head>
+<body>
+    <section>
+        <div class="search-bar">
+            <input type="text" placeholder="Pretraži">
+        </div>
+        <div class="reklama">
+            <p>Uštedi vrijeme.</p>
+            <p>Pozovi <span class="quickbite">QuickBite</span>.</p>
+        </div>
+        <div class="specijalna-ponuda">
+            <h3>Specijalna ponuda</h3>
+            <div class="slike">
+                <a asp-controller="Home" asp-action="RedirectBasedOnImage" asp-route-imageName="kfc">
+                    <img src="/images/kfc.jpg" alt="KFC">
+                </a>
+                <a asp-controller="Home" asp-action="RedirectBasedOnImage" asp-route-imageName="arigato">
+                    <img src="~/images/arigato.jpg" alt="Arigato">
+                </a>
+                <a asp-controller="Home" asp-action="RedirectBasedOnImage" asp-route-imageName="amko">
+                    <img src="~/images/amko.png" alt="Amko">
+                </a>
+                <a asp-controller="Home" asp-action="RedirectBasedOnImage" asp-route-imageName="bash">
+                    <img src="~/images/bash.jpg" alt="Bash">
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
