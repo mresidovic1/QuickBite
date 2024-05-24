@@ -137,6 +137,8 @@ namespace QuickBite.Data.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.UseTptMappingStrategy();
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -249,48 +251,6 @@ namespace QuickBite.Data.Migrations
                     b.ToTable("Dodatak", (string)null);
                 });
 
-            modelBuilder.Entity("QuickBite.Models.Korisnik", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Adresa")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("BrojNarudzbi")
-                        .HasColumnType("int");
-
-                    b.Property<string>("BrojTelefona")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("OstvareneNarudzbe")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("TrenutnoZauzet")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("Username")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Korisnik", (string)null);
-                });
-
             modelBuilder.Entity("QuickBite.Models.Naplata", b =>
                 {
                     b.Property<int>("Id")
@@ -325,8 +285,9 @@ namespace QuickBite.Data.Migrations
                     b.Property<int>("Cijena")
                         .HasColumnType("int");
 
-                    b.Property<int>("KupacId")
-                        .HasColumnType("int");
+                    b.Property<string>("KorisnikId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("NaplataId")
                         .HasColumnType("int");
@@ -336,7 +297,7 @@ namespace QuickBite.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("KupacId");
+                    b.HasIndex("KorisnikId");
 
                     b.HasIndex("NaplataId");
 
@@ -420,6 +381,22 @@ namespace QuickBite.Data.Migrations
                     b.ToTable("UsluznaJedinica", (string)null);
                 });
 
+            modelBuilder.Entity("QuickBite.Models.Korisnik", b =>
+                {
+                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
+
+                    b.Property<int>("BrojNarudzbi")
+                        .HasColumnType("int");
+
+                    b.Property<int>("OstvareneNarudzbe")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("TrenutnoZauzet")
+                        .HasColumnType("bit");
+
+                    b.ToTable("Korisnik", (string)null);
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -474,8 +451,8 @@ namespace QuickBite.Data.Migrations
             modelBuilder.Entity("QuickBite.Models.Narudzba", b =>
                 {
                     b.HasOne("QuickBite.Models.Korisnik", "Korisnik")
-                        .WithMany()
-                        .HasForeignKey("KupacId")
+                        .WithMany("Narudzbe")
+                        .HasForeignKey("KorisnikId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -529,6 +506,20 @@ namespace QuickBite.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("Proizvod");
+                });
+
+            modelBuilder.Entity("QuickBite.Models.Korisnik", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                        .WithOne()
+                        .HasForeignKey("QuickBite.Models.Korisnik", "Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("QuickBite.Models.Korisnik", b =>
+                {
+                    b.Navigation("Narudzbe");
                 });
 #pragma warning restore 612, 618
         }

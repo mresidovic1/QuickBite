@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using QuickBite.Models;
 using System.Diagnostics;
@@ -13,6 +12,7 @@ namespace QuickBite.Controllers
         {
             _logger = logger;
         }
+
         public IActionResult Index()
         {
             return View();

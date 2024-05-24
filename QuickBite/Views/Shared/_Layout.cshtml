@@ -12,7 +12,7 @@
 
     .navbar-brand {
         font-weight: 500;
-        font-size: 2rem; 
+        font-size: 2rem;
         margin-right: 140px;
     }
 
@@ -20,7 +20,7 @@
         margin-right: 1.5rem;
         font-size: 1rem;
         font-weight: 500;
-        color: #00a082 !important; 
+        color: #00a082 !important;
     }
 
     .navbar-brand .nav-link {
@@ -28,7 +28,7 @@
     }
 
     .navbar-collapse {
-        justify-content: space-between; 
+        justify-content: space-between;
     }
 </style>
 <body>
@@ -38,7 +38,7 @@
                 <a class="navbar-brand d-flex align-items-center" asp-area="" asp-controller="Home" asp-action="Index">
                     <img src="~/images/logoQB.jpg" alt="QuickBite Logo" class="logo-image" style="width: 60px; height: auto; margin-right: 5px; margin-top: 10px">
                     QuickBite
-                </a>                
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -63,12 +63,12 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">O NAMA</a>
                         </li>
-                        @if (User.IsInRole("Administrator"))
-                        {
+                        @if (User.IsInRole("Admin"))
+                            { 
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">ADMIN</a>
                             </li>
-                        }
+                            }
                         @if (User.IsInRole("Kurir"))
                         {
                             <li class="nav-item">

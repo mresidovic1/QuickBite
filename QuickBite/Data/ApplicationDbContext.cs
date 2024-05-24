@@ -29,6 +29,10 @@ namespace QuickBite.Data
             modelBuilder.Entity<Proizvod>().ToTable("Proizvod");
             modelBuilder.Entity<ProizvodNarudzba>().ToTable("ProizvodNarudzba");
             modelBuilder.Entity<UsluznaJedinica>().ToTable("UsluznaJedinica");
+            modelBuilder.Entity<Narudzba>()
+                .HasOne(n => n.Korisnik)
+                .WithMany(k => k.Narudzbe)
+                .HasForeignKey(n => n.KorisnikId);
             base.OnModelCreating(modelBuilder);
         }
     }
