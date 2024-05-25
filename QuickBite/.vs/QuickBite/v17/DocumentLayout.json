@@ -1,106 +1,146 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\",
+  "WorkspaceRootPath": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\views\\kurir\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:views\\kurir\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\data\\migrations\\20240524214639_drugamigracija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:data\\migrations\\20240524214639_drugamigracija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\controllers\\kurircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:controllers\\kurircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\models\\narudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\narudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\models\\zacin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\zacin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\models\\vrstanaplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\vrstanaplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\models\\usluznajedinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\usluznajedinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\models\\sos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\models\\sos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\sos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\models\\kategorija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\kategorija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\models\\salata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\controllers\\kurircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:controllers\\kurircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\quickbite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:quickbite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\views\\kurir\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:views\\kurir\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\data\\migrations\\20240524214639_drugamigracija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:data\\migrations\\20240524214639_drugamigracija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\data\\migrations\\20240524213323_prvamigracija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:data\\migrations\\20240524213323_prvamigracija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\models\\zacin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\zacin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\models\\vrstanaplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\vrstanaplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\models\\usluznajedinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\usluznajedinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\models\\salata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\salata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\models\\proizvodnarudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\models\\proizvodnarudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\proizvodnarudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\models\\proizvod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\models\\proizvod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\proizvod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\models\\naplata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\models\\narudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\narudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\models\\naplata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\naplata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\models\\dodatak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\dodatak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\models\\kategorija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\kategorija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\quickbite-tim17\\quickbite\\data\\migrations\\20240524213323_prvamigracija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:data\\migrations\\20240524213323_prvamigracija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\umihana \u0161e\u010Dunovi\u0107\\onedrive\\radna povr\u0161ina\\quickbite-tim17\\quickbite\\models\\dodatak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\dodatak.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,118 +150,188 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterConfirmation.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAowDcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T16:34:18.364Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
+              "Title": "RegisterConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEAAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-25T12:34:21.169Z",
+              "WhenOpened": "2024-05-25T15:54:33.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Controllers\\AdminController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T11:39:51.201Z",
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAADEAAAAAAAAAAADwvz0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T15:54:04.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Views\\Kurir\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Kurir\\Index.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Views\\Kurir\\Index.cshtml",
-              "RelativeToolTip": "Views\\Kurir\\Index.cshtml",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-25T10:34:24.531Z",
+              "WhenOpened": "2024-05-25T15:52:52.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Sos.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\Sos.cs",
+              "RelativeDocumentMoniker": "Models\\Sos.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\Sos.cs",
+              "RelativeToolTip": "Models\\Sos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T21:29:39.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T15:46:47.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB4AAAA2AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowBgAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-25T10:28:09.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T15:46:44.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T15:46:10.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T15:46:01.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-25T15:45:51.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAJUAAAAAAAAAAAAswKsAAAAHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-24T22:05:44.779Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20240524214639_drugaMigracija.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Data\\Migrations\\20240524214639_drugaMigracija.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20240524214639_drugaMigracija.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Data\\Migrations\\20240524214639_drugaMigracija.cs",
-              "RelativeToolTip": "Data\\Migrations\\20240524214639_drugaMigracija.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T21:46:40.025Z",
+              "DocumentIndex": 13,
+              "Title": "QuickBite",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\QuickBite.csproj",
+              "RelativeDocumentMoniker": "QuickBite.csproj",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\QuickBite.csproj",
+              "RelativeToolTip": "QuickBite.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-25T15:43:40.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "20240524213323_prvaMigracija.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Data\\Migrations\\20240524213323_prvaMigracija.cs",
-              "RelativeDocumentMoniker": "Data\\Migrations\\20240524213323_prvaMigracija.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Data\\Migrations\\20240524213323_prvaMigracija.cs",
-              "RelativeToolTip": "Data\\Migrations\\20240524213323_prvaMigracija.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T21:33:23.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAADcAAAAAAAAAAAAIwEYAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-24T22:05:56.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "KurirController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Controllers\\KurirController.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Controllers\\KurirController.cs",
               "RelativeDocumentMoniker": "Controllers\\KurirController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Controllers\\KurirController.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Controllers\\KurirController.cs",
               "RelativeToolTip": "Controllers\\KurirController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -230,11 +340,84 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T12:34:21.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Views\\Kurir\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Kurir\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Views\\Kurir\\Index.cshtml",
+              "RelativeToolTip": "Views\\Kurir\\Index.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-25T10:34:24.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T11:39:51.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240524214639_drugaMigracija.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Data\\Migrations\\20240524214639_drugaMigracija.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240524214639_drugaMigracija.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Data\\Migrations\\20240524214639_drugaMigracija.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240524214639_drugaMigracija.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T21:46:40.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240524213323_prvaMigracija.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Data\\Migrations\\20240524213323_prvaMigracija.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240524213323_prvaMigracija.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Data\\Migrations\\20240524213323_prvaMigracija.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240524213323_prvaMigracija.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T21:33:23.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADcAAAAAAAAAAAAIwEYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T22:05:56.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AQIAABYAAAAAAAAAAADwvycAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -242,11 +425,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Program.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAUwBEAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -254,11 +437,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 22,
               "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Views\\Shared\\_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -266,24 +449,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
               "Title": "Korisnik.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\Korisnik.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\Korisnik.cs",
               "RelativeDocumentMoniker": "Models\\Korisnik.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\Korisnik.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\Korisnik.cs",
               "RelativeToolTip": "Models\\Korisnik.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T21:26:41.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T21:26:41.477Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\appsettings.json",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -291,11 +473,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 25,
               "Title": "Zacin.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\Zacin.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\Zacin.cs",
               "RelativeDocumentMoniker": "Models\\Zacin.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\Zacin.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\Zacin.cs",
               "RelativeToolTip": "Models\\Zacin.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -303,11 +485,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 26,
               "Title": "VrstaNaplate.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\VrstaNaplate.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\VrstaNaplate.cs",
               "RelativeDocumentMoniker": "Models\\VrstaNaplate.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\VrstaNaplate.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\VrstaNaplate.cs",
               "RelativeToolTip": "Models\\VrstaNaplate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -315,11 +497,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 27,
               "Title": "UsluznaJedinica.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\UsluznaJedinica.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\UsluznaJedinica.cs",
               "RelativeDocumentMoniker": "Models\\UsluznaJedinica.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\UsluznaJedinica.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\UsluznaJedinica.cs",
               "RelativeToolTip": "Models\\UsluznaJedinica.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAxwBIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -327,23 +509,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Sos.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\Sos.cs",
-              "RelativeDocumentMoniker": "Models\\Sos.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\Sos.cs",
-              "RelativeToolTip": "Models\\Sos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T21:29:39.52Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "Salata.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\Salata.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\Salata.cs",
               "RelativeDocumentMoniker": "Models\\Salata.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\Salata.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\Salata.cs",
               "RelativeToolTip": "Models\\Salata.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -351,11 +521,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "ProizvodNarudzba.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\ProizvodNarudzba.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\ProizvodNarudzba.cs",
               "RelativeDocumentMoniker": "Models\\ProizvodNarudzba.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\ProizvodNarudzba.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\ProizvodNarudzba.cs",
               "RelativeToolTip": "Models\\ProizvodNarudzba.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -363,11 +533,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "Proizvod.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\Proizvod.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\Proizvod.cs",
               "RelativeDocumentMoniker": "Models\\Proizvod.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\Proizvod.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\Proizvod.cs",
               "RelativeToolTip": "Models\\Proizvod.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAxwBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -375,11 +545,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 31,
               "Title": "Narudzba.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\Narudzba.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\Narudzba.cs",
               "RelativeDocumentMoniker": "Models\\Narudzba.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\Narudzba.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\Narudzba.cs",
               "RelativeToolTip": "Models\\Narudzba.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAYwA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -387,11 +557,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 32,
               "Title": "Naplata.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\Naplata.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\Naplata.cs",
               "RelativeDocumentMoniker": "Models\\Naplata.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\Naplata.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\Naplata.cs",
               "RelativeToolTip": "Models\\Naplata.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -399,11 +569,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 33,
               "Title": "Kategorija.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\Kategorija.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\Kategorija.cs",
               "RelativeDocumentMoniker": "Models\\Kategorija.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\Kategorija.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\Kategorija.cs",
               "RelativeToolTip": "Models\\Kategorija.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -411,11 +581,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 34,
               "Title": "Dodatak.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\Dodatak.cs",
+              "DocumentMoniker": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\Dodatak.cs",
               "RelativeDocumentMoniker": "Models\\Dodatak.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\Models\\Dodatak.cs",
+              "ToolTip": "C:\\Users\\Umihana \u0160e\u010Dunovi\u0107\\OneDrive\\Radna povr\u0161ina\\QuickBite-Tim17\\QuickBite\\Models\\Dodatak.cs",
               "RelativeToolTip": "Models\\Dodatak.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

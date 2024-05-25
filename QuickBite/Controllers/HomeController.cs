@@ -22,6 +22,10 @@ namespace QuickBite.Controllers
         {
             return View();
         }
+        public IActionResult RegisterConfirmation()
+        {
+            return View();
+        }
         public IActionResult Kurir()
         {
             return RedirectToAction("Index","Kurir");

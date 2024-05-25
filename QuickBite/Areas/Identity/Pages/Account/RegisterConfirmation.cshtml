@@ -1,0 +1,72 @@
+﻿@page
+@model QuickBite.Areas.Identity.Pages.Account.RegisterConfirmationModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            margin-top: 50px;
+            position: relative; /* Make container relative for positioning lines */
+        }
+
+        .divider {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            height: 1px;
+            background-color: #98FB98; /* Light green color */
+            z-index: 1; /* Ensure lines are above other elements */
+        }
+
+        .divider-top {
+            transform: translateY(-50%); /* Move line above center */
+        }
+
+        .divider-bottom {
+            transform: translateY(50%); /* Move line below center */
+        }
+
+        .confirmation-input {
+            width: 100px;
+            text-align: center;
+            font-size: 18px;
+            margin: 0 auto; /* Center the input field */
+        }
+
+        .mail-icon {
+            width: 150px; /* Adjust icon size as needed */
+            margin-bottom: 20px; /* Add space between icon and text */
+        }
+
+        .submit {
+            background-color: #16A085;
+            margin-top: 20px; /* Add space between input field and button */
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <div class="divider divider-top"></div>
+        <img src="~/images/greenmailsign.png" class="mail-icon">
+        <h1 class="mb-4">Potvrdite Vašu Mail adresu</h1>
+        <p class="lead">Ako želite da nastavite, potvrdite svoju e-mail adresu.</p>
+        <form action="HandleConfirmation" method="post">
+            <!-- Adjust action as needed -->
+            <p class="lead">Unesite konfirmacijski kod :</p>
+            <input type="text" name="confirmationCode" class="form-control confirmation-input" maxlength="4">
+            <button type="submit" class="btn btn-primary btn-lg submit ">Confirm Order</button>
+        </form>
+        <div class="divider divider-bottom"></div>
+    </div>
+</body>
+</html>
