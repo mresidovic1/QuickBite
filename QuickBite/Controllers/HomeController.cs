@@ -22,6 +22,14 @@ namespace QuickBite.Controllers
         {
             return View();
         }
+        public IActionResult Kurir()
+        {
+            return RedirectToAction("Index","Kurir");
+        }
+        public IActionResult Admin()
+        {
+            return RedirectToAction("Index", "Admin");
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

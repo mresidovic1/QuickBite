@@ -1,0 +1,176 @@
+﻿@model IEnumerable<QuickBite.Models.UsluznaJedinica>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.header-footer{
+    background-color: #00a082;
+    color:white;
+    text-align: left;
+    padding: 10px 10px;
+    height: 70px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.lists{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.list{
+    background-color: white;
+    border: 1px solid #232222;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+    min-width: 280px;
+    max-width: 30%;
+    height: 500px;
+}
+
+h2{
+    font-size: 1.2em;
+    color: #333;
+}
+
+.lists ul{
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.lists li{
+    background-color: #00a082;
+    color: white;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.lists li span{
+    background-color: white;
+    color: #00a082;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+button{
+    background-color: #029a23;
+    color: white;
+    border: 2px solid #232222;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button.remove{
+    background-color: #ff4444;
+    border: 2px solid #232222;
+    padding: 5px 10px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+#couriers,#restaurants{
+    height: 450px;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #00a082;
+    z-index: -1;
+}
+
+.buttons{
+    position: absolute;
+    margin-left: 420px;
+    bottom: 90px;
+}
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="adminstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Admin Panel Design</title>
+</head>
+<body>
+    <div>
+        <div class="lists">
+            <div class="list" id="users">
+                <h2>Korisničko ime/broj narudžbi</h2>
+                <ul>
+                    <li>mresidovic1 <span>3</span></li>
+                    <li>usecunovic1 <span>5</span></li>
+                    <li>etirak1 <span>9</span></li>
+                    <li>user55 <span>12</span></li>
+                </ul>
+            </div>
+            <div class="list" id="couriers">
+                <h2>Kuriri</h2>
+                <ul>
+                    <li>Ime1 Prezime1 <button class="remove">Ukloni</button></li>
+                    <li>Ime2 Prezime2 <button class="remove">Ukloni</button></li>
+                    <li>Ime3 Prezime3 <button class="remove">Ukloni</button></li>
+                    <li>Ime4 Prezime4 <button class="remove">Ukloni</button></li>
+                </ul>
+            </div>
+            <div class="list" id="restaurants">
+                <h2>Ugostiteljske jedinice</h2>
+                <ul>
+                    <li>KFC <button class="remove">Ukloni</button></li>
+                    <li>Mrkva <button class="remove">Ukloni</button></li>
+                    <li>Metropolis <button class="remove">Ukloni</button></li>
+                    <li>Mrvica <button class="remove">Ukloni</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="buttons">
+            <button onClick="addCourier()">Dodaj novog kurira</button>
+            <span style="margin-left: 235px;"></span>
+            <button onclick="addRestaurant()">Dodaj novo mjesto</button>
+        </div>
+    </div>
+</body>
+</html>
