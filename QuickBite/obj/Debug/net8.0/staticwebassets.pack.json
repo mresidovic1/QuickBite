@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\images\\deliveryman.jpg"
     },
     {
+      "Id": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\deliveryonbike.jpg",
+      "PackagePath": "staticwebassets\\images\\deliveryonbike.jpg"
+    },
+    {
       "Id": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\fblogo.jpg",
       "PackagePath": "staticwebassets\\images\\fblogo.jpg"
     },
@@ -51,6 +55,10 @@
     {
       "Id": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\logoQB.jpg",
       "PackagePath": "staticwebassets\\images\\logoQB.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\service.jpg",
+      "PackagePath": "staticwebassets\\images\\service.jpg"
     },
     {
       "Id": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\startpage.jpg",

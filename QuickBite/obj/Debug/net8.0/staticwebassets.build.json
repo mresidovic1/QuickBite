@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DvWdRDwAUCV33KHwtVojHGCKxHWupbqcAvQbMxA7Weo=",
+  "Hash": "pnQscmPISFeTlDhqx7YDFlNZk274px5OII/n/B28Fmo=",
   "Source": "QuickBite",
   "BasePath": "_content/QuickBite",
   "Mode": "Default",
@@ -1309,6 +1309,25 @@
       "OriginalItemSpec": "wwwroot\\images\\deliveryman.jpg"
     },
     {
+      "Identity": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\deliveryonbike.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/deliveryonbike.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\deliveryonbike.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\fblogo.jpg",
       "SourceId": "QuickBite",
       "SourceType": "Discovered",
@@ -1421,6 +1440,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\logoQB.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\service.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/service.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\service.jpg"
     },
     {
       "Identity": "C:\\Users\\Umihana Šečunović\\OneDrive\\Radna površina\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\startpage.jpg",
