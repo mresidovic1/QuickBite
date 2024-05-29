@@ -22,8 +22,12 @@ namespace QuickBite.Controllers
         // GET: Kurir
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Narudzba.Include(n => n.Korisnik).Include(n => n.Naplata);
-            return View(await applicationDbContext.ToListAsync());
+            var narudzbe = await _context.Narudzba
+               .Include(n => n.Korisnik)
+               .Include(n => n.UsluznaJedinica)
+               .Include(n => n.Naplata)
+               .ToListAsync();
+            return View(narudzbe);
         }
 
         // GET: Kurir/Details/5

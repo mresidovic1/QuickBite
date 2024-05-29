@@ -9,6 +9,9 @@ namespace QuickBite.Models
         public int Id { get; set; }
         public int Cijena { get; set; }
         public int VrijemeNarudzbe { get; set; }
+        [ForeignKey("UsluznaJedinica")]
+        public int UsluznaJedinicaId { get; set; }
+        public UsluznaJedinica UsluznaJedinica { get; set; }
 
         [ForeignKey("Naplata")]
         public int NaplataId { get; set; }

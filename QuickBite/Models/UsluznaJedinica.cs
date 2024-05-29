@@ -12,7 +12,7 @@ namespace QuickBite.Models
         public string Adresa { get; set; }
 
         [ForeignKey("Proizvod")]
-        public int ProizvodId { get; set; }
-        public Proizvod Proizvod { get; set; }
+        public int? ProizvodId { get; set; }
+        public Proizvod? Proizvod { get; set; }
     }
 }

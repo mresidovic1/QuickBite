@@ -163,10 +163,18 @@ import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,2
             <div class="list" id="users">
                 <h2>Aktivne narudžbe</h2>
                 <ul>
-                    <li> <span class="item">mresidovic1</span> </span> <span class="item">KFC</span> <span class="item">adresa1</span> <span style="margin-left: 480px;"></span> <button class="preuzmi">Preuzmi</button> <button class="odbij">Odbij</button> <button class="dostavljeno">Dostavljeno</button> <button class="mapa">Prikaži na mapi</button></li>
-                    <li> <span class="item">usecunovic1</span> <span class="item">KFC</span> <span class="item">adresa2</span> <span style="margin-left: 480px;"></span> <button class="preuzmi">Preuzmi</button> <button class="odbij">Odbij</button> <button class="dostavljeno">Dostavljeno</button> <button class="mapa">Prikaži na mapi</button></li>
-                    <li> <span class="item">etirak1</span> <span class="item">Metropolis</span> <span class="item">adresa3</span> <span style="margin-left: 480px;"></span> <button class="preuzmi">Preuzmi</button> <button class="odbij">Odbij</button> <button class="dostavljeno">Dostavljeno</button> <button class="mapa">Prikaži na mapi</button></li>
-                    <li> <span class="item">user55</span> <span class="item">Mrvica</span> <span class="item">adresa4</span> <span style="margin-left: 480px;"></span> <button class="preuzmi">Preuzmi</button> <button class="odbij">Odbij</button> <button class="dostavljeno">Dostavljeno</button> <button class="mapa">Prikaži na mapi</button></li>
+                    @foreach (var narudzba in Model)
+                    {
+                        <li>
+                            <span class="item">@narudzba.Korisnik.UserName</span>
+                            <span class="item">@narudzba.UsluznaJedinica.Naziv</span>
+                            <span class="item">@narudzba.Korisnik.Adresa</span>
+                            <button class="preuzmi">Preuzmi</button>
+                            <button class="odbij">Odbij</button>
+                            <button class="dostavljeno">Dostavljeno</button>
+                            <button class="mapa">Prikaži na mapi</button>
+                        </li>
+                    }
                 </ul>
             </div>
         </div>

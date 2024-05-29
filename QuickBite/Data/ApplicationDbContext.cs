@@ -4,7 +4,7 @@ using QuickBite.Models;
 
 namespace QuickBite.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext<Korisnik>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
@@ -23,7 +23,6 @@ namespace QuickBite.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Dodatak>().ToTable("Dodatak");
-            modelBuilder.Entity<Korisnik>().ToTable("Korisnik");
             modelBuilder.Entity<Naplata>().ToTable("Naplata");
             modelBuilder.Entity<Narudzba>().ToTable("Narudzba");
             modelBuilder.Entity<Proizvod>().ToTable("Proizvod");
@@ -33,7 +32,14 @@ namespace QuickBite.Data
                 .HasOne(n => n.Korisnik)
                 .WithMany(k => k.Narudzbe)
                 .HasForeignKey(n => n.KorisnikId);
-            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Korisnik>(b =>
+            {
+                b.Property(u => u.Adresa);
+                b.Property(u => u.BrojNarudzbi);
+                b.Property(u => u.OstvareneNarudzbe);
+                b.Property(u => u.TrenutnoZauzet);
+                base.OnModelCreating(modelBuilder);
+            }); 
         }
     }
 }

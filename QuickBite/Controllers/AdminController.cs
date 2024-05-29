@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -13,17 +15,47 @@ namespace QuickBite.Controllers
     public class AdminController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<Korisnik> _userManager;
 
-        public AdminController(ApplicationDbContext context)
+        public AdminController(ApplicationDbContext context, UserManager<Korisnik> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
-        // GET: Admin
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.UsluznaJedinica.Include(u => u.Proizvod);
-            return View(await applicationDbContext.ToListAsync());
+            AdminViewModel mymodel = new AdminViewModel
+            {
+                UsluzneJedinice = await GetUsluzneJedinice(),
+                Korisnici = await GetKorisnici(),
+                Kuriri = await GetUsersByRole("Kurir")
+            };
+            return View(mymodel);
+        }
+
+        private async Task<IEnumerable<UsluznaJedinica>> GetUsluzneJedinice()
+        {
+            return await _context.UsluznaJedinica.Include(u => u.Proizvod).ToListAsync();
+        }
+
+        private async Task<IEnumerable<Korisnik>> GetUsersByRole(string role)
+        {
+            var users = await _userManager.GetUsersInRoleAsync(role);
+            return users;
+        }
+
+        private async Task<IEnumerable<Korisnik>> GetKorisnici()
+        {
+            var allUsers = await _context.Korisnik.ToListAsync();
+
+            var kuriri = await GetUsersByRole("Kurir");
+
+            var administratori = await GetUsersByRole("Admin");
+
+            var korisnici = allUsers.Where(u => !kuriri.Contains(u) && !administratori.Contains(u));
+
+            return korisnici;
         }
 
         // GET: Admin/Details/5
@@ -53,19 +85,17 @@ namespace QuickBite.Controllers
         }
 
         // POST: Admin/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: Admin/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,TipUsluge,Naziv,Adresa,ProizvodId")] UsluznaJedinica usluznaJedinica)
+        public async Task<IActionResult> Create([Bind("Id,TipUsluge,Naziv,Adresa")] UsluznaJedinica usluznaJedinica)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(usluznaJedinica);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Index)); // Redirect to the Index action
             }
-            ViewData["ProizvodId"] = new SelectList(_context.Proizvod, "Id", "Id", usluznaJedinica.ProizvodId);
             return View(usluznaJedinica);
         }
 
@@ -82,16 +112,13 @@ namespace QuickBite.Controllers
             {
                 return NotFound();
             }
-            ViewData["ProizvodId"] = new SelectList(_context.Proizvod, "Id", "Id", usluznaJedinica.ProizvodId);
-            return View(usluznaJedinica);
+            return View();
         }
 
         // POST: Admin/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,TipUsluge,Naziv,Adresa,ProizvodId")] UsluznaJedinica usluznaJedinica)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,TipUsluge,Naziv,Adresa")] UsluznaJedinica usluznaJedinica)
         {
             if (id != usluznaJedinica.Id)
             {
@@ -118,8 +145,7 @@ namespace QuickBite.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["ProizvodId"] = new SelectList(_context.Proizvod, "Id", "Id", usluznaJedinica.ProizvodId);
-            return View(usluznaJedinica);
+            return View();
         }
 
         // GET: Admin/Delete/5
@@ -130,9 +156,7 @@ namespace QuickBite.Controllers
                 return NotFound();
             }
 
-            var usluznaJedinica = await _context.UsluznaJedinica
-                .Include(u => u.Proizvod)
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var usluznaJedinica = await _context.UsluznaJedinica.FirstOrDefaultAsync(m => m.Id == id);
             if (usluznaJedinica == null)
             {
                 return NotFound();
@@ -140,6 +164,8 @@ namespace QuickBite.Controllers
 
             return View(usluznaJedinica);
         }
+
+        
 
         // POST: Admin/Delete/5
         [HttpPost, ActionName("Delete")]
@@ -159,6 +185,41 @@ namespace QuickBite.Controllers
         private bool UsluznaJedinicaExists(int id)
         {
             return _context.UsluznaJedinica.Any(e => e.Id == id);
+        }
+
+        // GET: Admin/DeleteCourier/5
+        public async Task<IActionResult> DeleteCourier(string id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var courier = await _userManager.FindByIdAsync(id);
+            if (courier == null)
+            {
+                return NotFound();
+            }
+
+            return View(courier);
+        }
+
+        // POST: Admin/DeleteCourier/5
+        [HttpPost, ActionName("DeleteCourier")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteCourierConfirmed(string id)
+        {
+            var courier = await _userManager.FindByIdAsync(id);
+            if (courier != null)
+            {
+                var result = await _userManager.DeleteAsync(courier);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+            }
+
+            return RedirectToAction(nameof(Index));
         }
     }
 }
