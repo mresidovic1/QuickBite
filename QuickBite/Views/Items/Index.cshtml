@@ -4,56 +4,177 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Cijena)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.VrijemeNarudzbe)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UsluznaJedinica)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Naplata)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Korisnik)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cijena)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.VrijemeNarudzbe)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UsluznaJedinica.Id)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Naplata.Id)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Korisnik.Id)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start; /* Promenjeno iz space-between u flex-start */
+        min-height: 100vh;
+        background: #FFFFFF;
+        overflow-y: auto; /* Dodato za vertikalno pomeranje */
+    }
+
+    .container {
+        max-width: 1200px;
+        width: 95%;
+        padding: 0 10px;
+        margin-bottom: 60px; /* Dodato da se izbegne preklapanje sa bottom-bar */
+    }
+
+    .slider-wrapper {
+        position: relative;
+        width: 100%;
+    }
+
+    .top-bar {
+        width: 100%;
+        background: #66CDAA;
+        padding: 20px;
+        text-align: left;
+    }
+
+        .top-bar .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+    .slider-wrapper .image-list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 18px;
+        margin-top: 30px;
+    }
+
+        .slider-wrapper .image-list .image-item {
+            width: 100%; /* Make items take full width of grid column */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+            .slider-wrapper .image-list .image-item .responsive {
+                width: 200px; /* Set a fixed width */
+                height: 200px; /* Set a fixed height */
+                object-fit: cover; /* Ensure the image covers the area, maintaining aspect ratio */
+            }
+
+            .slider-wrapper .image-list .image-item .caption {
+                margin-top: 10px;
+                font-size: 1rem;
+                color: #333;
+            }
+
+            .slider-wrapper .image-list .image-item .add-button {
+                margin-top: 10px;
+                background-color: rgba(255, 255, 255, 0.8);
+                border: none;
+                font-size: 1rem;
+                padding: 5px 10px;
+                cursor: pointer;
+                border-radius: 4px;
+            }
+
+                .slider-wrapper .image-list .image-item .add-button:hover {
+                    background-color: rgba(255, 255, 255, 1);
+                }
+
+    .bottom-bar {
+        width: 100%;
+        background: #66CDAA;
+        padding: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+
+        .bottom-bar .back-button {
+            color: white;
+            font-size: 2.2rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickBite</title>
+    <link rel="stylesheet" href="itemview.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="logo">QuickBite</div>
+    </div>
+    <div class="container">
+        <div class="slider-wrapper">
+            <div class="image-list">
+                <div class="image-item">
+                    <img src="images/burgerkfc.jpg" alt="burgerkfc" class="responsive">
+                    <div class="caption">Burger<br>6.00 KM</div>
+                    <button class="add-button">DODAJ</button>
+                </div>
+                <div class="image-item">
+                    <img src="images/burger_wrap_box.jpg" alt="Burger wrapbox" class="responsive">
+                    <div class="caption">Burger wrap box<br>6.00 KM</div>
+                    <button class="add-button">DODAJ</button>
+                </div>
+                <div class="image-item">
+                    <img src="images/kentucky_piletina.jpg" alt="Piletina" class="responsive">
+                    <div class="caption">Kentucky piletina<br>8.00 KM</div>
+                    <button class="add-button">DODAJ</button>
+                </div>
+                <div class="image-item">
+                    <img src="images/Tower meni.jpg" alt="Tower meni" class="responsive">
+                    <div class="caption">Tower meni<br>7.90 KM</div>
+                    <button class="add-button">DODAJ</button>
+                </div>
+                <div class="image-item">
+                    <img src="images/wrapkfc.jpg" alt="Burger Wrap" class="responsive">
+                    <div class="caption">Wrap<br>7.90 KM</div>
+                    <button class="add-button">DODAJ</button>
+                </div>
+                <div class="image-item">
+                    <img src="images/classicburger.jpg" alt="classicburger" class="responsive">
+                    <div class="caption">Classic Burger<br>6.00 KM</div>
+                    <button class="add-button">DODAJ</button>
+                </div>
+                <div class="image-item">
+                    <img src="images/Coleslaw salata.jpg" alt="Coleslaw salata" class="responsive">
+                    <div class="caption">Coleslaw salata<br>6.00 KM</div>
+                    <button class="add-button">DODAJ</button>
+                </div>
+                <div class="image-item">
+                    <img src="images/Korfna cookie.jpg" alt="Krofna cookie" class="responsive">
+                    <div class="caption">Krofna cookie<br>6.00 KM</div>
+                    <button class="add-button">DODAJ</button>
+                </div>
+                <div class="image-item">
+                    <img src="images/Milkshake cokolada.jpg" alt="Milkshake cokolada" class="responsive">
+                    <div class="caption">Milkshake cokolada<br>6.00 KM</div>
+                    <button class="add-button">DODAJ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-bar">
+        <button class="back-button">&#8592;</button>
+    </div>
+</body>
+</html>
