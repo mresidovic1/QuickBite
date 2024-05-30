@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Coleslaw salata.jpg",
+      "PackagePath": "staticwebassets\\images\\Coleslaw salata.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Korfna cookie.jpg",
+      "PackagePath": "staticwebassets\\images\\Korfna cookie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Milkshake cokolada.jpg",
+      "PackagePath": "staticwebassets\\images\\Milkshake cokolada.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Tower meni.jpg",
+      "PackagePath": "staticwebassets\\images\\Tower meni.jpg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\amko.png",
       "PackagePath": "staticwebassets\\images\\amko.png"
     },
@@ -23,6 +39,18 @@
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\bash.jpg",
       "PackagePath": "staticwebassets\\images\\bash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\burger_wrap_box.jpg",
+      "PackagePath": "staticwebassets\\images\\burger_wrap_box.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\burgerkfc.jpg",
+      "PackagePath": "staticwebassets\\images\\burgerkfc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\classicburger.jpg",
+      "PackagePath": "staticwebassets\\images\\classicburger.jpg"
     },
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\deliveryman.jpg",
@@ -45,8 +73,76 @@
       "PackagePath": "staticwebassets\\images\\ikonica-lupe.png"
     },
     {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-1.jpg",
+      "PackagePath": "staticwebassets\\images\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-16.jpg",
+      "PackagePath": "staticwebassets\\images\\img-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-17.jpg",
+      "PackagePath": "staticwebassets\\images\\img-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-18.jpg",
+      "PackagePath": "staticwebassets\\images\\img-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-19.jpg",
+      "PackagePath": "staticwebassets\\images\\img-19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-2.jpg",
+      "PackagePath": "staticwebassets\\images\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-25.jpg",
+      "PackagePath": "staticwebassets\\images\\img-25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-27.jpg",
+      "PackagePath": "staticwebassets\\images\\img-27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-28.jpg",
+      "PackagePath": "staticwebassets\\images\\img-28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-29.jpg",
+      "PackagePath": "staticwebassets\\images\\img-29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-31.jpg",
+      "PackagePath": "staticwebassets\\images\\img-31.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-32.jpg",
+      "PackagePath": "staticwebassets\\images\\img-32.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-33.jpg",
+      "PackagePath": "staticwebassets\\images\\img-33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-34.jpg",
+      "PackagePath": "staticwebassets\\images\\img-34.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-4.jpg",
+      "PackagePath": "staticwebassets\\images\\img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-8.jpg",
+      "PackagePath": "staticwebassets\\images\\img-8.jpg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\instagramlogo.jpg",
       "PackagePath": "staticwebassets\\images\\instagramlogo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\kentucky_piletina.jpg",
+      "PackagePath": "staticwebassets\\images\\kentucky_piletina.jpg"
     },
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\kfc.jpg",
@@ -63,6 +159,10 @@
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\startpage.jpg",
       "PackagePath": "staticwebassets\\images\\startpage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\wrapkfc.jpg",
+      "PackagePath": "staticwebassets\\images\\wrapkfc.jpg"
     },
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\js\\site.js",

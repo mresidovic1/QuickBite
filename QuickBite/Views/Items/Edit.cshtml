@@ -1,4 +1,4 @@
-﻿@model QuickBite.Models.Narudzba
+﻿@model QuickBite.Models.Proizvod
 
 @{
     ViewData["Title"] = "Edit";
@@ -6,7 +6,7 @@
 
 <h1>Edit</h1>
 
-<h4>Narudzba</h4>
+<h4>Proizvod</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -14,29 +14,19 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
-                <label asp-for="Cijena" class="control-label"></label>
-                <input asp-for="Cijena" class="form-control" />
-                <span asp-validation-for="Cijena" class="text-danger"></span>
+                <label asp-for="Kategorija" class="control-label"></label>
+                <select asp-for="Kategorija" class="form-control"></select>
+                <span asp-validation-for="Kategorija" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="VrijemeNarudzbe" class="control-label"></label>
-                <input asp-for="VrijemeNarudzbe" class="form-control" />
-                <span asp-validation-for="VrijemeNarudzbe" class="text-danger"></span>
+                <label asp-for="Naziv" class="control-label"></label>
+                <input asp-for="Naziv" class="form-control" />
+                <span asp-validation-for="Naziv" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="UsluznaJedinicaId" class="control-label"></label>
-                <select asp-for="UsluznaJedinicaId" class="form-control" asp-items="ViewBag.UsluznaJedinicaId"></select>
-                <span asp-validation-for="UsluznaJedinicaId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="NaplataId" class="control-label"></label>
-                <select asp-for="NaplataId" class="form-control" asp-items="ViewBag.NaplataId"></select>
-                <span asp-validation-for="NaplataId" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="KorisnikId" class="control-label"></label>
-                <select asp-for="KorisnikId" class="form-control" asp-items="ViewBag.KorisnikId"></select>
-                <span asp-validation-for="KorisnikId" class="text-danger"></span>
+                <label asp-for="DodatakId" class="control-label"></label>
+                <select asp-for="DodatakId" class="form-control" asp-items="ViewBag.DodatakId"></select>
+                <span asp-validation-for="DodatakId" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />

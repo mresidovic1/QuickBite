@@ -1,4 +1,4 @@
-﻿@model IEnumerable<QuickBite.Models.Narudzba>
+﻿﻿@model IEnumerable<QuickBite.Models.Narudzba>
 
 @{
     ViewData["Title"] = "Index";
@@ -15,17 +15,17 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start; /* Promenjeno iz space-between u flex-start */
+        justify-content: flex-start; 
         min-height: 100vh;
         background: #FFFFFF;
-        overflow-y: auto; /* Dodato za vertikalno pomeranje */
+        overflow-y: auto; 
     }
 
     .container {
         max-width: 1200px;
         width: 95%;
         padding: 0 10px;
-        margin-bottom: 60px; /* Dodato da se izbegne preklapanje sa bottom-bar */
+        margin-bottom: 60px; 
     }
 
     .slider-wrapper {
@@ -54,7 +54,7 @@
     }
 
         .slider-wrapper .image-list .image-item {
-            width: 100%; /* Make items take full width of grid column */
+            width: 100%; 
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -63,9 +63,9 @@
         }
 
             .slider-wrapper .image-list .image-item .responsive {
-                width: 200px; /* Set a fixed width */
-                height: 200px; /* Set a fixed height */
-                object-fit: cover; /* Ensure the image covers the area, maintaining aspect ratio */
+                width: 200px; 
+                height: 200px; 
+                object-fit: cover; 
             }
 
             .slider-wrapper .image-list .image-item .caption {

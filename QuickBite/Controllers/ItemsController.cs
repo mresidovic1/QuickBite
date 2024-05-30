@@ -22,7 +22,7 @@ namespace QuickBite.Controllers
         // GET: Items
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Narudzba.Include(n => n.Korisnik).Include(n => n.Naplata).Include(n => n.UsluznaJedinica);
+            var applicationDbContext = _context.Proizvod.Include(p => p.Dodatak);
             return View(await applicationDbContext.ToListAsync());
         }
 
@@ -34,25 +34,21 @@ namespace QuickBite.Controllers
                 return NotFound();
             }
 
-            var narudzba = await _context.Narudzba
-                .Include(n => n.Korisnik)
-                .Include(n => n.Naplata)
-                .Include(n => n.UsluznaJedinica)
+            var proizvod = await _context.Proizvod
+                .Include(p => p.Dodatak)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (narudzba == null)
+            if (proizvod == null)
             {
                 return NotFound();
             }
 
-            return View(narudzba);
+            return View(proizvod);
         }
 
         // GET: Items/Create
         public IActionResult Create()
         {
-            ViewData["KorisnikId"] = new SelectList(_context.Korisnik, "Id", "Id");
-            ViewData["NaplataId"] = new SelectList(_context.Naplata, "Id", "Id");
-            ViewData["UsluznaJedinicaId"] = new SelectList(_context.UsluznaJedinica, "Id", "Id");
+            ViewData["DodatakId"] = new SelectList(_context.Dodatak, "Id", "Id");
             return View();
         }
 
@@ -61,18 +57,16 @@ namespace QuickBite.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Cijena,VrijemeNarudzbe,UsluznaJedinicaId,NaplataId,KorisnikId")] Narudzba narudzba)
+        public async Task<IActionResult> Create([Bind("Id,Kategorija,Naziv,DodatakId")] Proizvod proizvod)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(narudzba);
+                _context.Add(proizvod);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["KorisnikId"] = new SelectList(_context.Korisnik, "Id", "Id", narudzba.KorisnikId);
-            ViewData["NaplataId"] = new SelectList(_context.Naplata, "Id", "Id", narudzba.NaplataId);
-            ViewData["UsluznaJedinicaId"] = new SelectList(_context.UsluznaJedinica, "Id", "Id", narudzba.UsluznaJedinicaId);
-            return View(narudzba);
+            ViewData["DodatakId"] = new SelectList(_context.Dodatak, "Id", "Id", proizvod.DodatakId);
+            return View(proizvod);
         }
 
         // GET: Items/Edit/5
@@ -83,15 +77,13 @@ namespace QuickBite.Controllers
                 return NotFound();
             }
 
-            var narudzba = await _context.Narudzba.FindAsync(id);
-            if (narudzba == null)
+            var proizvod = await _context.Proizvod.FindAsync(id);
+            if (proizvod == null)
             {
                 return NotFound();
             }
-            ViewData["KorisnikId"] = new SelectList(_context.Korisnik, "Id", "Id", narudzba.KorisnikId);
-            ViewData["NaplataId"] = new SelectList(_context.Naplata, "Id", "Id", narudzba.NaplataId);
-            ViewData["UsluznaJedinicaId"] = new SelectList(_context.UsluznaJedinica, "Id", "Id", narudzba.UsluznaJedinicaId);
-            return View(narudzba);
+            ViewData["DodatakId"] = new SelectList(_context.Dodatak, "Id", "Id", proizvod.DodatakId);
+            return View(proizvod);
         }
 
         // POST: Items/Edit/5
@@ -99,9 +91,9 @@ namespace QuickBite.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Cijena,VrijemeNarudzbe,UsluznaJedinicaId,NaplataId,KorisnikId")] Narudzba narudzba)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Kategorija,Naziv,DodatakId")] Proizvod proizvod)
         {
-            if (id != narudzba.Id)
+            if (id != proizvod.Id)
             {
                 return NotFound();
             }
@@ -110,12 +102,12 @@ namespace QuickBite.Controllers
             {
                 try
                 {
-                    _context.Update(narudzba);
+                    _context.Update(proizvod);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!NarudzbaExists(narudzba.Id))
+                    if (!ProizvodExists(proizvod.Id))
                     {
                         return NotFound();
                     }
@@ -126,10 +118,8 @@ namespace QuickBite.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["KorisnikId"] = new SelectList(_context.Korisnik, "Id", "Id", narudzba.KorisnikId);
-            ViewData["NaplataId"] = new SelectList(_context.Naplata, "Id", "Id", narudzba.NaplataId);
-            ViewData["UsluznaJedinicaId"] = new SelectList(_context.UsluznaJedinica, "Id", "Id", narudzba.UsluznaJedinicaId);
-            return View(narudzba);
+            ViewData["DodatakId"] = new SelectList(_context.Dodatak, "Id", "Id", proizvod.DodatakId);
+            return View(proizvod);
         }
 
         // GET: Items/Delete/5
@@ -140,17 +130,15 @@ namespace QuickBite.Controllers
                 return NotFound();
             }
 
-            var narudzba = await _context.Narudzba
-                .Include(n => n.Korisnik)
-                .Include(n => n.Naplata)
-                .Include(n => n.UsluznaJedinica)
+            var proizvod = await _context.Proizvod
+                .Include(p => p.Dodatak)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (narudzba == null)
+            if (proizvod == null)
             {
                 return NotFound();
             }
 
-            return View(narudzba);
+            return View(proizvod);
         }
 
         // POST: Items/Delete/5
@@ -158,19 +146,19 @@ namespace QuickBite.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var narudzba = await _context.Narudzba.FindAsync(id);
-            if (narudzba != null)
+            var proizvod = await _context.Proizvod.FindAsync(id);
+            if (proizvod != null)
             {
-                _context.Narudzba.Remove(narudzba);
+                _context.Proizvod.Remove(proizvod);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool NarudzbaExists(int id)
+        private bool ProizvodExists(int id)
         {
-            return _context.Narudzba.Any(e => e.Id == id);
+            return _context.Proizvod.Any(e => e.Id == id);
         }
     }
 }
