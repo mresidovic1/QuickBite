@@ -22,6 +22,10 @@ namespace QuickBite.Controllers
         // GET: Place
         public async Task<IActionResult> Index()
         {
+            if (!_context.UsluznaJedinica.Any())
+            {
+                NapuniBazuPodataka();
+            }
             var applicationDbContext = _context.UsluznaJedinica.Include(u => u.Proizvod);
             return View(await applicationDbContext.ToListAsync());
         }
@@ -43,6 +47,30 @@ namespace QuickBite.Controllers
             }
 
             return View(usluznaJedinica);
+        }
+
+        private void NapuniBazuPodataka()
+        {
+            var places = new List<UsluznaJedinica>
+            {
+                // Restorani
+                new UsluznaJedinica { TipUsluge = Kategorija.Restorani, Naziv = "Arigato-sushi bar", Adresa = "Čobanija 1, Sarajevo 71000", ProizvodId = null },
+                new UsluznaJedinica { TipUsluge = Kategorija.Restorani, Naziv = "Metropolis", Adresa = "Maršala Tita 21, Sarajevo 71000", ProizvodId = null },
+                new UsluznaJedinica { TipUsluge = Kategorija.Restorani, Naziv = "Ćevabdžinica Hodžić", Adresa = "Bravadžiluk 34, Sarajevo 71000", ProizvodId = null },
+
+                // Supermarketi
+                new UsluznaJedinica { TipUsluge = Kategorija.Supermarketi, Naziv = "Amko Komerc", Adresa = "Butmirska cesta 20, Ilidža", ProizvodId = null },
+                new UsluznaJedinica { TipUsluge = Kategorija.Supermarketi, Naziv = "Merkator", Adresa = "Ložionička 16, Sarajevo 71000", ProizvodId = null },
+                new UsluznaJedinica { TipUsluge = Kategorija.Supermarketi, Naziv = "Bingo", Adresa = "Dzemala Bijedica St 160, Sarajevo 71000", ProizvodId = null },
+
+                // Brza Hrana
+                new UsluznaJedinica { TipUsluge = Kategorija.BrzaHrana, Naziv = "KFC", Adresa = "Vrbanja 1, Sarajevo 71000", ProizvodId = null },
+                new UsluznaJedinica { TipUsluge = Kategorija.BrzaHrana, Naziv = "Bash", Adresa = "Kulovića br.5, Sarajevo 71000", ProizvodId = null },
+                new UsluznaJedinica { TipUsluge = Kategorija.BrzaHrana, Naziv = "Burger King", Adresa = "Vrbanja 1, Sarajevo 71000", ProizvodId = null }
+            };
+
+            _context.UsluznaJedinica.AddRange(places);
+            _context.SaveChanges();
         }
 
         // GET: Place/Create
@@ -154,6 +182,15 @@ namespace QuickBite.Controllers
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+
+        public async Task<IActionResult> FilterByCategory(Kategorija kategorija)
+        {
+            var filteredPlaces = await _context.UsluznaJedinica
+                .Where(u => u.TipUsluge == kategorija)
+                .ToListAsync();
+
+            return View("Index", filteredPlaces);
         }
 
         private bool UsluznaJedinicaExists(int id)

@@ -17,151 +17,151 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QuickBite
 build_property.RootNamespace = QuickBite
-build_property.ProjectDir = C:\Users\PC\Documents\GitHub\QuickBite-Tim17\QuickBite\
+build_property.ProjectDir = C:\Users\LENOVO\Desktop\QuickBite-Tim17\QuickBite\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\PC\Documents\GitHub\QuickBite-Tim17\QuickBite
+build_property.MSBuildProjectDirectory = C:\Users\LENOVO\Desktop\QuickBite-Tim17\QuickBite
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Admin/Create.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Admin/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Admin/Delete.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Admin/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Admin/Details.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Admin/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Admin/Edit.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Admin/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Admin/Index.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Home/Index.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Home/Privacy.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Items/Create.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Items/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Items/Delete.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Items/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Items/Details.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Items/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Items/Edit.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Items/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Items/Index.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Items/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Kurir/Create.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Kurir/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VyaXJcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Kurir/Delete.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Kurir/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VyaXJcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Kurir/Details.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Kurir/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VyaXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Kurir/Edit.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Kurir/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VyaXJcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Kurir/Index.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Kurir/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VyaXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Place/Create.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Place/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Place/Delete.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Place/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Place/Details.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Place/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Place/Edit.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Place/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Place/Index.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Place/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Shared/Error.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/_ViewImports.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/_ViewStart.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/PC/Documents/GitHub/QuickBite-Tim17/QuickBite/Views/Shared/_Layout.cshtml]
+[C:/Users/LENOVO/Desktop/QuickBite-Tim17/QuickBite/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-9nvw4h7jmg

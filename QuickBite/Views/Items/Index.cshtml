@@ -1,18 +1,20 @@
-﻿﻿@model IEnumerable<QuickBite.Models.Narudzba>
+﻿@using QuickBite.Models
+@model List<Proizvod>
 
 @{
     ViewData["Title"] = "Index";
 }
 
 <style>
-    * {
+    .index-page * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
 
-    body {
+    .index-page body {
         display: flex;
+        width: 100%;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start; 
@@ -21,39 +23,28 @@
         overflow-y: auto; 
     }
 
-    .container {
-        max-width: 1200px;
-        width: 95%;
+    .index-page .container {
+        margin-top: 30px;
+        max-width: 100%;
+        width: 100%;
         padding: 0 10px;
         margin-bottom: 60px; 
     }
 
-    .slider-wrapper {
+    .index-page .slider-wrapper {
+        margin-top: 30px; !important
         position: relative;
         width: 100%;
     }
 
-    .top-bar {
-        width: 100%;
-        background: #66CDAA;
-        padding: 20px;
-        text-align: left;
-    }
-
-        .top-bar .logo {
-            color: white;
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-    .slider-wrapper .image-list {
+    .index-page .slider-wrapper .image-list {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 18px;
         margin-top: 30px;
     }
 
-        .slider-wrapper .image-list .image-item {
+    .index-page .slider-wrapper .image-list .image-item {
             width: 100%; 
             display: flex;
             flex-direction: column;
@@ -62,19 +53,19 @@
             position: relative;
         }
 
-            .slider-wrapper .image-list .image-item .responsive {
+    .index-page .slider-wrapper .image-list .image-item .responsive {
                 width: 200px; 
                 height: 200px; 
                 object-fit: cover; 
             }
 
-            .slider-wrapper .image-list .image-item .caption {
+    .index-page .slider-wrapper .image-list .image-item .caption {
                 margin-top: 10px;
                 font-size: 1rem;
                 color: #333;
             }
 
-            .slider-wrapper .image-list .image-item .add-button {
+    .index-page .slider-wrapper .image-list .image-item .add-button {
                 margin-top: 10px;
                 background-color: rgba(255, 255, 255, 0.8);
                 border: none;
@@ -84,15 +75,16 @@
                 border-radius: 4px;
             }
 
-                .slider-wrapper .image-list .image-item .add-button:hover {
+    .index-page .slider-wrapper .image-list .image-item .add-button:hover {
                     background-color: rgba(255, 255, 255, 1);
                 }
 
-    .bottom-bar {
+    .index-page .bottom-bar {
         width: 100%;
         background: #66CDAA;
         padding: 10px;
         display: flex;
+        height: 10%;
         justify-content: flex-start;
         align-items: center;
         position: fixed;
@@ -100,7 +92,7 @@
         left: 0;
     }
 
-        .bottom-bar .back-button {
+        .index-page .bottom-bar .back-button {
             color: white;
             font-size: 2.2rem;
             background: none;
@@ -115,58 +107,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
     <title>QuickBite</title>
     <link rel="stylesheet" href="itemview.css">
 </head>
-<body>
-    <div class="top-bar">
-        <div class="logo">QuickBite</div>
-    </div>
+<body class="index-page">
     <div class="container">
         <div class="slider-wrapper">
             <div class="image-list">
                 <div class="image-item">
-                    <img src="images/burgerkfc.jpg" alt="burgerkfc" class="responsive">
+                    <img src="~/images/burgerkfc.jpg" alt="burgerkfc" class="responsive">
                     <div class="caption">Burger<br>6.00 KM</div>
                     <button class="add-button">DODAJ</button>
                 </div>
                 <div class="image-item">
-                    <img src="images/burger_wrap_box.jpg" alt="Burger wrapbox" class="responsive">
+                    <img src="~/images/burger_wrap_box.jpg" alt="Burger wrapbox" class="responsive">
                     <div class="caption">Burger wrap box<br>6.00 KM</div>
                     <button class="add-button">DODAJ</button>
                 </div>
                 <div class="image-item">
-                    <img src="images/kentucky_piletina.jpg" alt="Piletina" class="responsive">
+                    <img src="~/images/kentucky_piletina.jpg" alt="Piletina" class="responsive">
                     <div class="caption">Kentucky piletina<br>8.00 KM</div>
                     <button class="add-button">DODAJ</button>
                 </div>
                 <div class="image-item">
-                    <img src="images/Tower meni.jpg" alt="Tower meni" class="responsive">
+                    <img src="~/images/Tower meni.jpg" alt="Tower meni" class="responsive">
                     <div class="caption">Tower meni<br>7.90 KM</div>
                     <button class="add-button">DODAJ</button>
                 </div>
                 <div class="image-item">
-                    <img src="images/wrapkfc.jpg" alt="Burger Wrap" class="responsive">
+                    <img src="~/images/wrapkfc.jpg" alt="Burger Wrap" class="responsive">
                     <div class="caption">Wrap<br>7.90 KM</div>
                     <button class="add-button">DODAJ</button>
                 </div>
                 <div class="image-item">
-                    <img src="images/classicburger.jpg" alt="classicburger" class="responsive">
+                    <img src="~/images/classicburger.jpg" alt="classicburger" class="responsive">
                     <div class="caption">Classic Burger<br>6.00 KM</div>
                     <button class="add-button">DODAJ</button>
                 </div>
                 <div class="image-item">
-                    <img src="images/Coleslaw salata.jpg" alt="Coleslaw salata" class="responsive">
+                    <img src="~/images/Coleslaw salata.jpg" alt="Coleslaw salata" class="responsive">
                     <div class="caption">Coleslaw salata<br>6.00 KM</div>
                     <button class="add-button">DODAJ</button>
                 </div>
                 <div class="image-item">
-                    <img src="images/Korfna cookie.jpg" alt="Krofna cookie" class="responsive">
+                    <img src="~/images/Korfna cookie.jpg" alt="Krofna cookie" class="responsive">
                     <div class="caption">Krofna cookie<br>6.00 KM</div>
                     <button class="add-button">DODAJ</button>
                 </div>
                 <div class="image-item">
-                    <img src="images/Milkshake cokolada.jpg" alt="Milkshake cokolada" class="responsive">
+                    <img src="~/images/Milkshake cokolada.jpg" alt="Milkshake cokolada" class="responsive">
                     <div class="caption">Milkshake cokolada<br>6.00 KM</div>
                     <button class="add-button">DODAJ</button>
                 </div>
@@ -174,7 +164,7 @@
         </div>
     </div>
     <div class="bottom-bar">
-        <button class="back-button">&#8592;</button>
+        <button class="back-button material-symbols-rounded">arrow_back</button>
     </div>
 </body>
 </html>

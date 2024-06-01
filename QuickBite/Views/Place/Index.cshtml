@@ -1,4 +1,5 @@
-﻿@model IEnumerable<QuickBite.Models.UsluznaJedinica>
+﻿@using QuickBite.Models
+@model List<UsluznaJedinica>
 
 @{
     ViewData["Title"] = "Index";
@@ -6,49 +7,37 @@
 
 
 <style>
-    /* Globalni stilovi */
-* {
+    .index-page * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+.index-page body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     min-height: 100vh;
     background: #FFFFFF;
+    overflow: hidden; /* Prevent scrolling */
 }
 
-.container {
-    max-width: 1200px;
-    width: 95%;
-    padding: 0 10px;
+.index-page .container {
+    max-width: 100%;
+    width: 100%;
+    padding: 0;
+    flex-grow: 1; /* Allow the container to grow and take available space */
 }
 
-.slider-wrapper {
+.index-page .slider-wrapper {
+    margin-top: 30px;
     position: relative;
 }
 
-/* Gornja traka */
-.top-bar {
-    width: 100%;
-    background: #66CDAA;
-    padding: 20px;
-    text-align: left;
-}
-
-.top-bar .logo {
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.slider-wrapper .slide-button {
+.index-page .slider-wrapper .slide-button {
     position: absolute;
-    top: 50%;
+    top: 10%;
     height: 50px;
     width: 50px;
     color: #fff;
@@ -59,78 +48,96 @@ body {
     cursor: pointer;
     border-radius: 50%;
     transform: translateY(-50%);
+    z-index: 1; /* Ensure buttons are above images */
 }
 
-.slider-wrapper .slide-button:hover {
+.index-page .slider-wrapper .slide-button:hover {
     background: #66CDAA;
 }
 
-.slider-wrapper .slide-button#prev-slide {
+.index-page .slider-wrapper .slide-button#prev-slide {
     left: -20px;
     display: none;
 }
 
-.slider-wrapper .slide-button#next-slide {
+.index-page .slider-wrapper .slide-button#next-slide {
     right: -20px;
 }
 
-.slider-wrapper .image-list {
+.index-page .slider-wrapper .image-list {
     display: flex; 
     justify-content: center; 
     align-items: center;
     gap: 18px;
     font-size: 0;
-    margin-top: 30px;
+    margin-top: 20px;
     overflow-x: auto;
     scrollbar-width: none;
+    width: 100%; /* Ensure images take full width */
 }
 
-.slider-wrapper .image-list::-webkit-scrollbar {
+.index-page .slider-wrapper .image-list::-webkit-scrollbar {
     display: none;
 }
 
-.slider-wrapper .image-list .image-item {
-    width: 300px; 
-    height: auto;
-    object-fit: cover;
+.index-page .slider-wrapper .image-list .image-item {
+    width: 350px; /* Postavite fiksnu širinu za sve image-item */
+    height: 400px; /* Postavite fiksnu visinu za sve image-item */
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
+    overflow: hidden; /* Dodajte overflow kako bi se slike proporcionalno prilagodile */
+    position: relative; /* Ensure captions are positioned correctly */
+    margin-right: 18px; /* Dodajte razmak između image-item elemenata */
+    }
 
-.slider-wrapper .image-list .image-item .responsive {
-    width: 100%; 
-    height: auto;
-}
+    .index-page .slider-wrapper .image-list .image-item:last-child {
+        margin-right: 0; /* Uklonite razmak za posljednji image-item */
+    }
 
-.slider-wrapper .image-list .image-item .caption {
-    margin-top: 10px;
-    font-size: 1rem;
-    color: #333;
-}
-
-
-.slider-scrollbar {
-    height: 24px;
+.index-page .slider-wrapper .image-list .image-item .responsive {
     width: 100%;
+    height: 100%; /* Podesite visinu i širinu slike na 100% */
+    object-fit: cover; /* Postavite da slike pokriju cijelu površinu elementa */
+}
+
+.index-page .slider-wrapper .image-list .image-item .caption {
+    margin-top: auto; /* Podešavanje margine za naziv */
+    font-size: 1rem;
+    font-weight:600;
+    color: #333;
+    padding: 10px; /* Dodajte prostor između slike i naziva */
+    background-color: rgba(255, 255, 255, 0.9); /* Prozirna pozadina za bolju čitljivost */
+    width: 100%; /* Postavite širinu naziva na 100% kako bi se prilagodio fiksnoj širini slike */
+    box-sizing: border-box; /* Uključite padding u širinu elementa */
+    position: absolute; /* Position captions relative to their parent */
+    bottom: 0;
+    left: 0;
+    z-index: 1; /* Ensure captions are above images */
+}
+
+.index-page .slider-scrollbar {
+    margin: 60px auto 0; /* Center horizontally and add margin-top */
+    height: 24px;
+    width: 60%; /* Define the width to something less than 100% */
     display: flex;
     align-items: center;
 }
 
-.slider-scrollbar .scrollbar-track {
+.index-page .slider-scrollbar .scrollbar-track {
     height: 2px;
-    width: 100%;
+    width: 100%; /* Full width of the parent container */
     background: #ccc;
     position: relative;
     border-radius: 4px;
 }
 
-.slider-scrollbar:hover .scrollbar-track {
+.index-page .slider-scrollbar:hover .scrollbar-track {
     height: 4px;
 }
 
-.slider-scrollbar .scrollbar-thumb {
+.index-page .slider-scrollbar .scrollbar-thumb {
     position: absolute;
     height: 2px;
     width: 50%;
@@ -139,13 +146,13 @@ body {
     cursor: grab;
 }
 
-.slider-scrollbar .scrollbar-thumb:active {
+.index-page .slider-scrollbar .scrollbar-thumb:active {
     cursor: grabbing;
     height: 8px;
     top: -2px;
 }
 
-.slider-scrollbar .scrollbar-thumb::after {
+.index-page .slider-scrollbar .scrollbar-thumb::after {
     content: "";
     position: absolute;
     left: 0;
@@ -155,34 +162,38 @@ body {
 }
 
 media (max-width: 1023px) {
-    .slider-wrapper .slide-button {
+    .index-page .slider-wrapper .slide-button {
         display: none !important;
     }
 
-    .slider-wrapper .image-list {
+    .index-page .slider-wrapper .image-list {
         gap: 10px;
         margin-top: 15px;
     }
 }
 
 media (max-width: 768px) {
-    .slider-wrapper .image-list .image-item {
+    .index-page .slider-wrapper .image-list .image-item {
         width: 200px; 
         height: auto;
     }
 }
 
-
-.bottom-bar {
+.index-page .bottom-bar {
     width: 100%;
     background: #66CDAA;
     padding: 10px;
+    height: 10%;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: center; /* Center elements vertically */
+    position: fixed; /* Fix the bottom bar to the bottom of the viewport */
+    bottom: 0;
+    left: 0;
+    z-index: 2; /* Ensure the bottom bar is above images and scrollbar */
 }
 
-.bottom-bar .back-button {
+.index-page .bottom-bar .back-button {
     color: white;
     font-size: 2.2rem;
     background: none;
@@ -201,13 +212,7 @@ media (max-width: 768px) {
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
     <script src="script.js" defer></script>
 </head>
-<body>
-     <!-- Gornja traka -->
-     <div class="top-bar">
-        <div class="logo">QuickBite</div>
-    </div>
-
-
+<body class="index-page">
     <div class="container">
         <div class="slider-scrollbar">
             <div class="scrollbar-track">
@@ -217,21 +222,13 @@ media (max-width: 768px) {
         <div class="slider-wrapper">
             <button id="prev-slide" class="slide-button material-symbols-rounded">chevron_left</button>
             <div class="image-list">
-                <div class="image-item">
-                    <img src="images/img-1.jpg" alt="img-1" class="image-item responsive">
-                    <div class="caption">Ćevabdžinica Hodžić</div>
-                </div>
-                <div class="image-item">               
-                     <img src="images/img-2.jpg" alt="img-2" class="image-item responsive">
-                     <div class="caption"><br>Metropolis</div>
-                    </div>
-            
+                @foreach (var place in Model)
+                {
                     <div class="image-item">
-                <img src="images/img-9.jpg" alt="img-9" class="image-item responsive">
-                <div class="caption">Arigato sushi bar</div>
+                        <img src="~/images/@(place.Naziv).jpg" alt="@place.Naziv" class="image-item responsive">
+                        <div class="caption">@place.Naziv</div>
                     </div>
-
-                
+                }
             </div>
             <button id="next-slide" class="slide-button material-symbols-rounded">chevron_right</button>
         </div>
