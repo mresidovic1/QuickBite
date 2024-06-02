@@ -14,8 +14,11 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Amko Komerc.jpg",
 =======
+=======
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
       "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\American Cheeseburger.jpeg",
       "PackagePath": "staticwebassets\\images\\American Cheeseburger.jpeg"
     },
@@ -42,6 +45,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Bingo.jpg",
       "PackagePath": "staticwebassets\\images\\Bingo.jpg"
     },
@@ -57,6 +61,8 @@
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Korfna cookie.jpg",
       "PackagePath": "staticwebassets\\images\\Korfna cookie.jpg"
 =======
+=======
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
       "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Banane.jpg",
       "PackagePath": "staticwebassets\\images\\Banane.jpg"
     },
@@ -143,6 +149,49 @@
     {
       "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Kaladont.jpg",
       "PackagePath": "staticwebassets\\images\\Kaladont.jpg"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Kobasice.jpg",
+      "PackagePath": "staticwebassets\\images\\Kobasice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Kombinacija.jpg",
+      "PackagePath": "staticwebassets\\images\\Kombinacija.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Kotleti.jpg",
+      "PackagePath": "staticwebassets\\images\\Kotleti.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Kraljica.jpeg",
+      "PackagePath": "staticwebassets\\images\\Kraljica.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Kraljica.jpg",
+      "PackagePath": "staticwebassets\\images\\Kraljica.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Makarone.jpg",
+      "PackagePath": "staticwebassets\\images\\Makarone.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Mango roll.jpg",
+      "PackagePath": "staticwebassets\\images\\Mango roll.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Maslac.jfif",
+      "PackagePath": "staticwebassets\\images\\Maslac.jfif"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Maslac.jpg",
+      "PackagePath": "staticwebassets\\images\\Maslac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Master Burger.jpg",
+      "PackagePath": "staticwebassets\\images\\Master Burger.jpg"
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
     },
     {
       "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Kobasice.jpg",
@@ -195,6 +244,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Milkshake cokolada.jpg",
       "PackagePath": "staticwebassets\\images\\Milkshake cokolada.jpg"
     },
@@ -204,6 +254,106 @@
 =======
       "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Monte torta.jpeg",
       "PackagePath": "staticwebassets\\images\\Monte torta.jpeg"
+=======
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Monte torta.jpeg",
+      "PackagePath": "staticwebassets\\images\\Monte torta.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Monte torta.jpg",
+      "PackagePath": "staticwebassets\\images\\Monte torta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Nigiri losos.jpg",
+      "PackagePath": "staticwebassets\\images\\Nigiri losos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Nuggets.jpg",
+      "PackagePath": "staticwebassets\\images\\Nuggets.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Onion Rings.jpg",
+      "PackagePath": "staticwebassets\\images\\Onion Rings.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Panko losos.jpg",
+      "PackagePath": "staticwebassets\\images\\Panko losos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Pileća krilca.jpg",
+      "PackagePath": "staticwebassets\\images\\Pileća krilca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Pljeskavica.jpg",
+      "PackagePath": "staticwebassets\\images\\Pljeskavica.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Riza.jpg",
+      "PackagePath": "staticwebassets\\images\\Riza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Salama.jpeg",
+      "PackagePath": "staticwebassets\\images\\Salama.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Salama.jpg",
+      "PackagePath": "staticwebassets\\images\\Salama.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Sashimi.jpg",
+      "PackagePath": "staticwebassets\\images\\Sashimi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\So.jpeg",
+      "PackagePath": "staticwebassets\\images\\So.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\So.jpg",
+      "PackagePath": "staticwebassets\\images\\So.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Supa.jpg",
+      "PackagePath": "staticwebassets\\images\\Supa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Tataki tuna.jpg",
+      "PackagePath": "staticwebassets\\images\\Tataki tuna.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Texas Burger.jpg",
+      "PackagePath": "staticwebassets\\images\\Texas Burger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Twister box.jpeg",
+      "PackagePath": "staticwebassets\\images\\Twister box.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Twister box.jpg",
+      "PackagePath": "staticwebassets\\images\\Twister box.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Twister meni.jpg",
+      "PackagePath": "staticwebassets\\images\\Twister meni.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Twister.jpg",
+      "PackagePath": "staticwebassets\\images\\Twister.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Veliki pomfrit.jpg",
+      "PackagePath": "staticwebassets\\images\\Veliki pomfrit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Whitella.jpeg",
+      "PackagePath": "staticwebassets\\images\\Whitella.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Whitella.jpg",
+      "PackagePath": "staticwebassets\\images\\Whitella.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Zinger meni.jpg",
+      "PackagePath": "staticwebassets\\images\\Zinger meni.jpg"
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
     },
     {
       "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Monte torta.jpg",
@@ -312,6 +462,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\bash.jpg",
       "PackagePath": "staticwebassets\\images\\bash.jpg"
     },
@@ -330,6 +481,8 @@
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\deliveryman.jpg",
 =======
+=======
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
       "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\deliveryman.jpg",
 >>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
       "PackagePath": "staticwebassets\\images\\deliveryman.jpg"
@@ -355,6 +508,7 @@
       "PackagePath": "staticwebassets\\images\\img-18.jpg"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-25.jpg",
       "PackagePath": "staticwebassets\\images\\img-25.jpg"
@@ -386,6 +540,8 @@
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-34.jpg",
 =======
+=======
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
       "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-34.jpg",
 >>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
       "PackagePath": "staticwebassets\\images\\img-34.jpg"
@@ -400,6 +556,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\kentucky_piletina.jpg",
       "PackagePath": "staticwebassets\\images\\kentucky_piletina.jpg"
     },
@@ -410,6 +567,8 @@
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\logoQB.jpg",
 =======
+=======
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
       "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\logoQB.jpg",
 >>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
       "PackagePath": "staticwebassets\\images\\logoQB.jpg"
@@ -424,6 +583,7 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\wrapkfc.jpg",
       "PackagePath": "staticwebassets\\images\\wrapkfc.jpg"
     },
@@ -434,6 +594,8 @@
     {
       "Id": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\js\\site.js",
 =======
+=======
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
       "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Ćevabdžinica Hodžić.jpg",
       "PackagePath": "staticwebassets\\images\\Ćevabdžinica Hodžić.jpg"
     },

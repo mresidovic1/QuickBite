@@ -1,7 +1,11 @@
 {
   "Version": 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "Hash": "3RBuCC254lxGxmhyhVKPhN83T2/qQfse+oiBpoyGsWY=",
+=======
+  "Hash": "NkaOR60RvyimuMf0miX8VOqtiMoTCJCBtgr4eQ2zJrY=",
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
 =======
   "Hash": "NkaOR60RvyimuMf0miX8VOqtiMoTCJCBtgr4eQ2zJrY=",
 >>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
@@ -1238,9 +1242,89 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Amko Komerc.jpg",
 =======
       "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\American Cheeseburger.jpeg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\American Cheeseburger.jpeg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/American Cheeseburger.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\American Cheeseburger.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\American Cheeseburger.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/American Cheeseburger.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\American Cheeseburger.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\American Pizza.jpeg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/American Pizza.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\American Pizza.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\American Pizza.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/American Pizza.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\American Pizza.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Amko Komerc.jpg",
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
       "SourceId": "QuickBite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
@@ -1394,7 +1478,10 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\bash.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Banane.jpg",
 =======
       "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Banane.jpg",
       "SourceId": "QuickBite",
@@ -1419,9 +1506,9 @@
 >>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
       "SourceId": "QuickBite",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
       "BasePath": "_content/QuickBite",
-      "RelativePath": "images/bash.jpg",
+      "RelativePath": "images/Banane.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1432,6 +1519,36 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Banane.jpg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Bash.jpg",
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/bash.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Big King.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Big King.jpg",
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\images\\bash.jpg"
     },
     {
@@ -1439,6 +1556,12 @@
       "Identity": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Bingo.jpg",
 =======
       "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Big King.jpg",
+=======
+      "OriginalItemSpec": "wwwroot\\images\\Big King.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Bingo.jpg",
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
       "SourceId": "QuickBite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
@@ -1478,9 +1601,70 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Burger King.jpg",
 =======
       "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Boxmaster.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Boxmaster.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Boxmaster.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Boxmaster.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Brasno.jfif",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Brasno.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Brasno.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Brasno.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Brasno.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Brasno.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Burger King.jpg",
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
       "SourceId": "QuickBite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
@@ -1558,7 +1742,11 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\burger_wrap_box.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Cheeseburger.jpg",
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
 =======
       "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Cheeseburger.jpg",
 >>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
@@ -1577,6 +1765,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
 <<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\images\\burger_wrap_box.jpg"
     },
@@ -1639,6 +1828,9 @@
 =======
       "OriginalItemSpec": "wwwroot\\images\\Cheeseburger.jpg"
 >>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
+=======
+      "OriginalItemSpec": "wwwroot\\images\\Cheeseburger.jpg"
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
     },
     {
       "Identity": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Ćevabdžinica Hodžić.jpg",
@@ -1661,9 +1853,32 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\deliveryman.jpg",
 =======
       "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Ćevapi.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Ćevapi.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Ćevapi.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Ćevapi.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\deliveryman.jpg",
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
       "SourceId": "QuickBite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
@@ -1722,9 +1937,70 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\fblogo.jpg",
 =======
       "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Deterdzent.jpeg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Deterdzent.jpeg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Deterdzent.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Deterdzent.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Deterdzent.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Deterdzent.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Deterdzent.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Doner.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Doner.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Doner.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\fblogo.jpg",
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
       "SourceId": "QuickBite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
@@ -1821,9 +2097,70 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\ikonica-lupe.png",
 =======
       "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Gringas.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Gringas.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Gringas.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Gringas.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Hamburger.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Hamburger.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Hamburger.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Hljeb.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Hljeb.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Hljeb.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\ikonica-lupe.png",
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
       "SourceId": "QuickBite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
@@ -1919,6 +2256,7 @@
       "OriginalItemSpec": "wwwroot\\images\\img-18.jpg"
     },
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "Identity": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-25.jpg",
       "SourceId": "QuickBite",
@@ -2055,6 +2393,8 @@
     {
       "Identity": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-34.jpg",
 =======
+=======
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
       "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\img-34.jpg",
 >>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
       "SourceId": "QuickBite",
@@ -2114,7 +2454,11 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\kentucky_piletina.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Jabuke.jpg",
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
 =======
       "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Jabuke.jpg",
 >>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
@@ -2134,6 +2478,8 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Jabuke.jpg"
+<<<<<<< HEAD
+=======
     },
     {
       "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Jaja.jpeg",
@@ -2172,6 +2518,190 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Jaja.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Jufka.jpeg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Jufka.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Jufka.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Jufka.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Jufka.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Jufka.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Kaladont.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Kaladont.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Kaladont.jpg"
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Jaja.jpeg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Jaja.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Jaja.jpeg"
+    },
+    {
+<<<<<<< HEAD
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Jaja.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Kobasice.jpg",
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+<<<<<<< HEAD
+      "RelativePath": "images/Jaja.jpg",
+=======
+      "RelativePath": "images/Kobasice.jpg",
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
+      "OriginalItemSpec": "wwwroot\\images\\Jaja.jpg"
+=======
+      "OriginalItemSpec": "wwwroot\\images\\Kobasice.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Kombinacija.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Kombinacija.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Kombinacija.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Kotleti.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Kotleti.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Kotleti.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Kraljica.jpeg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Kraljica.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Kraljica.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Kraljica.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Kraljica.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Kraljica.jpg"
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
     },
     {
       "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Jufka.jpeg",
@@ -2369,9 +2899,108 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Merkator.jpg",
 =======
       "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Makarone.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Makarone.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Makarone.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Makarone.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Mango roll.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Mango roll.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Mango roll.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Maslac.jfif",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Maslac.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Maslac.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Maslac.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Maslac.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Maslac.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Master Burger.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Master Burger.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Master Burger.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Merkator.jpg",
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
       "SourceId": "QuickBite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
@@ -2506,7 +3135,11 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Milkshake cokolada.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Monte torta.jpeg",
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
 =======
       "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Monte torta.jpeg",
 >>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
@@ -2526,6 +3159,218 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Monte torta.jpeg"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Monte torta.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Monte torta.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Monte torta.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Nigiri losos.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Nigiri losos.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Nigiri losos.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Nuggets.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Nuggets.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Nuggets.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Onion Rings.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Onion Rings.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Onion Rings.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Panko losos.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Panko losos.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Panko losos.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Pileća krilca.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Pileća krilca.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Pileća krilca.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Pljeskavica.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Pljeskavica.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Pljeskavica.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Riza.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Riza.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Riza.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Salama.jpeg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Salama.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Salama.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Salama.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Salama.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Salama.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Sashimi.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Sashimi.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Sashimi.jpg"
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
     },
     {
       "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Monte torta.jpg",
@@ -2757,9 +3602,51 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\startpage.jpg",
 =======
       "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\So.jpeg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\So.jpeg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/So.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\So.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\So.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/So.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\So.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\startpage.jpg",
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
       "SourceId": "QuickBite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
@@ -2818,7 +3705,11 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Tower meni.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Supa.jpg",
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
 =======
       "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Supa.jpg",
 >>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
@@ -2841,7 +3732,11 @@
     },
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "Identity": "C:\\Users\\PC\\Documents\\GitHub\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\wrapkfc.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Šnicla.jpg",
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
 =======
       "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Šnicla.jpg",
 >>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
@@ -2861,6 +3756,199 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Šnicla.jpg"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Tataki tuna.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Tataki tuna.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Tataki tuna.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Texas Burger.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Texas Burger.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Texas Burger.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Twister box.jpeg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Twister box.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Twister box.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Twister box.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Twister box.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Twister box.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Twister meni.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Twister meni.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Twister meni.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Twister.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Twister.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Twister.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Veliki pomfrit.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Veliki pomfrit.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Veliki pomfrit.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Whitella.jpeg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Whitella.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Whitella.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Whitella.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Whitella.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Whitella.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Zinger meni.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Zinger meni.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Zinger meni.jpg"
+>>>>>>> ba5a28f4da4c692fc42e6f2c1c3d50f56a6fcbe8
     },
     {
       "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Tataki tuna.jpg",
