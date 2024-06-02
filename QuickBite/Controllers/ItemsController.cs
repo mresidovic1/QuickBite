@@ -19,11 +19,21 @@ namespace QuickBite.Controllers
             _context = context;
         }
 
+        
         // GET: Items
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? usluznaJedinicaId)
         {
-            var applicationDbContext = _context.Proizvod.Include(p => p.Dodatak);
-            return View(await applicationDbContext.ToListAsync());
+            if (usluznaJedinicaId == null)
+            {
+                // Handle the case where no restaurant is selected (optional)
+                return RedirectToAction("Index", "Home");
+            }
+
+            var items = _context.Proizvod
+                .Include(p => p.Dodatak)
+                .Where(p => p.UsluznaJedinicaId == usluznaJedinicaId);
+
+            return View(await items.ToListAsync());
         }
 
         // GET: Items/Details/5

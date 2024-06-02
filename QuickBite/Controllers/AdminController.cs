@@ -36,7 +36,7 @@ namespace QuickBite.Controllers
 
         private async Task<IEnumerable<UsluznaJedinica>> GetUsluzneJedinice()
         {
-            return await _context.UsluznaJedinica.Include(u => u.Proizvod).ToListAsync();
+            return await _context.UsluznaJedinica.Include(u => u.Proizvodi).ToListAsync();
         }
 
         private async Task<IEnumerable<Korisnik>> GetUsersByRole(string role)
@@ -67,8 +67,7 @@ namespace QuickBite.Controllers
             }
 
             var usluznaJedinica = await _context.UsluznaJedinica
-                .Include(u => u.Proizvod)
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .Include(u => u.Proizvodi).ToListAsync();
             if (usluznaJedinica == null)
             {
                 return NotFound();

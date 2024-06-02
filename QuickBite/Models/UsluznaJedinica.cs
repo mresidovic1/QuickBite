@@ -1,5 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace QuickBite.Models
 {
@@ -11,8 +11,6 @@ namespace QuickBite.Models
         public string Naziv { get; set; }
         public string Adresa { get; set; }
 
-        [ForeignKey("Proizvod")]
-        public int? ProizvodId { get; set; }
-        public Proizvod? Proizvod { get; set; }
+        public ICollection<Proizvod> Proizvodi { get; set; } = new List<Proizvod>();
     }
 }

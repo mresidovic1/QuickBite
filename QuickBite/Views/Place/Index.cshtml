@@ -70,7 +70,7 @@
     align-items: center;
     gap: 18px;
     font-size: 0;
-    margin-top: 20px;
+    margin-top: 50px;
     overflow-x: auto;
     scrollbar-width: none;
     width: 100%; /* Ensure images take full width */
@@ -80,27 +80,31 @@
     display: none;
 }
 
-.index-page .slider-wrapper .image-list .image-item {
-    width: 350px; /* Postavite fiksnu širinu za sve image-item */
-    height: 400px; /* Postavite fiksnu visinu za sve image-item */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    overflow: hidden; /* Dodajte overflow kako bi se slike proporcionalno prilagodile */
-    position: relative; /* Ensure captions are positioned correctly */
-    margin-right: 18px; /* Dodajte razmak između image-item elemenata */
-    }
+            .index-page .slider-wrapper .image-list .image-item {
+                width: 350px; /* Postavite fiksnu širinu za sve image-item */
+                height: 360px; /* Postavite fiksnu visinu za sve image-item */
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                overflow: hidden;
+                position: relative; /* Ensure captions are positioned correctly */
+                margin-right: 18px; /* Dodajte razmak između image-item elemenata */
+            }
 
-    .index-page .slider-wrapper .image-list .image-item:last-child {
-        margin-right: 0; /* Uklonite razmak za posljednji image-item */
-    }
+                .index-page .slider-wrapper .image-list .image-item:last-child {
+                    margin-right: 0; /* Uklonite razmak za posljednji image-item */
+                    overflow: hidden; /* Dodajte overflow kako bi se slike proporcionalno prilagodile */
+                }
 
-.index-page .slider-wrapper .image-list .image-item .responsive {
-    width: 100%;
-    height: 100%; /* Podesite visinu i širinu slike na 100% */
-    object-fit: cover; /* Postavite da slike pokriju cijelu površinu elementa */
-}
+                .index-page .slider-wrapper .image-list .image-item .responsive {
+                    width: 100%;
+                    max-height: 100%; /* Postavite maksimalnu visinu slike */
+                    object-fit: contain; /* Prilagodite sliku unutar granica bez promjene omjera */
+                    align-self: center; /* Centriranje vertikalno */
+                }
+
 
 .index-page .slider-wrapper .image-list .image-item .caption {
     margin-top: auto; /* Podešavanje margine za naziv */
@@ -225,8 +229,10 @@ media (max-width: 768px) {
                 @foreach (var place in Model)
                 {
                     <div class="image-item">
-                        <img src="~/images/@(place.Naziv).jpg" alt="@place.Naziv" class="image-item responsive">
-                        <div class="caption">@place.Naziv</div>
+                        <a href="@Url.Action("Index", "Items", new { usluznaJedinicaId = place.Id })">
+                            <img src="~/images/@(place.Naziv).jpg" alt="@place.Naziv" class="image-item responsive">
+                            <div class="caption">@place.Naziv</div>
+                        </a>
                     </div>
                 }
             </div>
