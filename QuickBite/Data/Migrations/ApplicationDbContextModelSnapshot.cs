@@ -337,9 +337,14 @@ namespace QuickBite.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("UsluznaJedinicaId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("DodatakId");
+
+                    b.HasIndex("UsluznaJedinicaId");
 
                     b.ToTable("Proizvod", (string)null);
                 });
@@ -383,15 +388,10 @@ namespace QuickBite.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("ProizvodId")
-                        .HasColumnType("int");
-
                     b.Property<int>("TipUsluge")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ProizvodId");
 
                     b.ToTable("UsluznaJedinica", (string)null);
                 });
@@ -482,6 +482,12 @@ namespace QuickBite.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("QuickBite.Models.UsluznaJedinica", null)
+                        .WithMany("Proizvodi")
+                        .HasForeignKey("UsluznaJedinicaId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
                     b.Navigation("Dodatak");
                 });
 
@@ -504,18 +510,14 @@ namespace QuickBite.Data.Migrations
                     b.Navigation("Proizvod");
                 });
 
-            modelBuilder.Entity("QuickBite.Models.UsluznaJedinica", b =>
-                {
-                    b.HasOne("QuickBite.Models.Proizvod", "Proizvod")
-                        .WithMany()
-                        .HasForeignKey("ProizvodId");
-
-                    b.Navigation("Proizvod");
-                });
-
             modelBuilder.Entity("QuickBite.Models.Korisnik", b =>
                 {
                     b.Navigation("Narudzbe");
+                });
+
+            modelBuilder.Entity("QuickBite.Models.UsluznaJedinica", b =>
+                {
+                    b.Navigation("Proizvodi");
                 });
 #pragma warning restore 612, 618
         }

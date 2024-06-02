@@ -39,7 +39,12 @@ namespace QuickBite.Data
                 b.Property(u => u.OstvareneNarudzbe);
                 b.Property(u => u.TrenutnoZauzet);
                 base.OnModelCreating(modelBuilder);
-            }); 
+            });
+            modelBuilder.Entity<UsluznaJedinica>()
+                .HasMany(u => u.Proizvodi)
+                .WithOne()
+                .HasForeignKey(p => p.UsluznaJedinicaId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

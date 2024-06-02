@@ -152,16 +152,16 @@
         <div class="specijalna-ponuda">
             <h3>Specijalna ponuda</h3>
             <div class="slike">
-                <a asp-controller="Home" asp-action="RedirectBasedOnImage" asp-route-imageName="kfc">
+                <a href="@Url.Action("Index", "Items", new { usluznaJedinicaId = 44 })">
                     <img src="/images/kfc.jpg" alt="KFC">
                 </a>
-                <a asp-controller="Home" asp-action="RedirectBasedOnImage" asp-route-imageName="arigato">
+                <a href="@Url.Action("Index", "Items", new { usluznaJedinicaId = 38 })">
                     <img src="~/images/arigato.jpg" alt="Arigato">
                 </a>
-                <a asp-controller="Home" asp-action="RedirectBasedOnImage" asp-route-imageName="amko">
+                <a href="@Url.Action("Index", "Items", new { usluznaJedinicaId = 41 })">
                     <img src="~/images/amko.png" alt="Amko">
                 </a>
-                <a asp-controller="Home" asp-action="RedirectBasedOnImage" asp-route-imageName="bash">
+                <a href="@Url.Action("Index", "Items", new { usluznaJedinicaId = 45 })">
                     <img src="~/images/bash.jpg" alt="Bash">
                 </a>
             </div>
