@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -13,19 +14,19 @@ namespace QuickBite.Controllers
     public class ItemsController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<Korisnik> _userManager;
 
-        public ItemsController(ApplicationDbContext context)
+        public ItemsController(ApplicationDbContext context, UserManager<Korisnik> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
-        
         // GET: Items
         public async Task<IActionResult> Index(int? usluznaJedinicaId)
         {
             if (usluznaJedinicaId == null)
             {
-                // Handle the case where no restaurant is selected (optional)
                 return RedirectToAction("Index", "Home");
             }
 
@@ -35,6 +36,57 @@ namespace QuickBite.Controllers
 
             return View(await items.ToListAsync());
         }
+
+        [HttpPost]
+        public async Task<IActionResult> DodajUNarudzbu(int proizvodId)
+        {
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            var proizvod = await _context.Proizvod.FindAsync(proizvodId);
+            if (proizvod == null)
+            {
+                return NotFound();
+            }
+
+            var narudzba = await _context.Narudzba
+                .FirstOrDefaultAsync(n => n.KorisnikId == currentUser.Id && n.VrijemeNarudzbe == 0);
+
+            if (narudzba == null)
+            {
+                var naplata = new Naplata
+                {
+                    VrstaNaplate = VrstaNaplate.Gotovina, // Zamijenite sa stvarnom vrstom naplate
+                    BrojKartice = 000000000, // Postavite odgovarajuću vrijednost ili ostavite kao 0
+                    Napomena = "Nova naplata" // Dodajte odgovarajuću napomenu ili ostavite kao prazno
+                };
+                _context.Naplata.Add(naplata);
+                await _context.SaveChangesAsync();
+
+                narudzba = new Narudzba
+                {
+                    KorisnikId = currentUser.Id,
+                    UsluznaJedinicaId = proizvod.UsluznaJedinicaId,
+                    VrijemeNarudzbe = 0,
+                    Cijena = proizvod.Cijena ?? 0, // Postavljamo početnu cijenu na cijenu prvog dodanog proizvoda
+                    NaplataId = naplata.Id
+                };
+                _context.Narudzba.Add(narudzba);
+            }
+            else
+            {
+                narudzba.Cijena += proizvod.Cijena ?? 0; // Dodajemo cijenu novog proizvoda na ukupnu cijenu narudžbe
+            }
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index), new { usluznaJedinicaId = narudzba.UsluznaJedinicaId });
+        }
+
+
 
         // GET: Items/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -150,6 +202,7 @@ namespace QuickBite.Controllers
 
             return View(proizvod);
         }
+
 
         // POST: Items/Delete/5
         [HttpPost, ActionName("Delete")]

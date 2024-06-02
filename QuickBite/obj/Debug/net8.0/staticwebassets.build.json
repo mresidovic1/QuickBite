@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NkaOR60RvyimuMf0miX8VOqtiMoTCJCBtgr4eQ2zJrY=",
+  "Hash": "xsK0XJ8sN9NgM6lpb8nnLCCxxS1d5N8uHq9wgIyLGpU=",
   "Source": "QuickBite",
   "BasePath": "_content/QuickBite",
   "Mode": "Default",
@@ -2409,6 +2409,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Pljeskavica.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Pozadina.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Pozadina.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Pozadina.jpg"
     },
     {
       "Identity": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Riza.jpg",

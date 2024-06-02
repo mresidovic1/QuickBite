@@ -31,6 +31,12 @@
         margin-bottom: 60px; 
     }
 
+    .price {
+        font-size: 18px;
+        color: #666;
+        margin-top: 2.5px;
+    }
+
     .index-page .slider-wrapper {
         margin-top: 30px; !important
         position: relative;
@@ -127,7 +133,11 @@
                     <div class="image-item">
                         <img src="~/images/@(item.Naziv).jpg" alt="@item.Naziv" class="image-item responsive">
                         <div class="caption">@item.Naziv</div>
-                        <button class="add-button">DODAJ</button>
+                        <div class="price">@item.Cijena KM</div>
+                        <form asp-action="DodajUNarudzbu" method="post">
+                            <input type="hidden" name="proizvodId" value="@item.Id" />
+                            <button type="submit" class="add-button">DODAJ</button>
+                        </form>
                     </div>
                 }
             </div>

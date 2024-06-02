@@ -205,6 +205,10 @@
       "PackagePath": "staticwebassets\\images\\Pljeskavica.jpg"
     },
     {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Pozadina.jpg",
+      "PackagePath": "staticwebassets\\images\\Pozadina.jpg"
+    },
+    {
       "Id": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Riza.jpg",
       "PackagePath": "staticwebassets\\images\\Riza.jpg"
     },
