@@ -6,6 +6,8 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Net;
+using System.Net.Mail;
 using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading;
@@ -132,7 +134,7 @@ namespace QuickBite.Areas.Identity.Pages.Account
                         values: new { area = "Identity", userId = userId, code = code, returnUrl = returnUrl },
                         protocol: Request.Scheme);
 
-                    await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
+                    await SendEmailAsync(Input.Email, "Confirm your email",
                         $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
 
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)
@@ -153,6 +155,40 @@ namespace QuickBite.Areas.Identity.Pages.Account
 
             // If we got this far, something failed, redisplay form
             return Page();
+        }
+        private async Task<bool> SendEmailAsync(string email, string subject, string confirmLink)
+        {
+            try
+            {
+                var message = new MailMessage();
+                message.From = new MailAddress("noreply.quickbite@gmail.com");
+                message.To.Add(new MailAddress(email));
+                message.Subject = subject;
+                message.IsBodyHtml = true;
+                message.Body = confirmLink;
+
+                var smtpClient = new SmtpClient("smtp.gmail.com")
+                {
+                    Port = 587,
+                    Credentials = new NetworkCredential("noreply.quickbite@gmail.com", "lmiy fkzi hwaw prno"),
+                    EnableSsl = true,
+                };
+                smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
+                await smtpClient.SendMailAsync(message);
+                return true;
+            }
+            catch (SmtpException smtpEx)
+            {
+                // Log detailed SMTP exceptions
+                _logger.LogError($"SMTP Error: {smtpEx.Message}");
+                return false;
+            }
+            catch (Exception ex)
+            {
+                // Log other exceptions
+                _logger.LogError($"Error sending email: {ex.Message}");
+                return false;
+            }
         }
 
         private Korisnik CreateUser()

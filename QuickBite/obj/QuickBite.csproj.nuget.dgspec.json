@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\QuickBite.csproj": {}
+    "C:\\Users\\LENOVO\\Desktop\\OOAD\\QuickBite-Tim17\\QuickBite\\QuickBite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\QuickBite.csproj": {
+    "C:\\Users\\LENOVO\\Desktop\\OOAD\\QuickBite-Tim17\\QuickBite\\QuickBite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\QuickBite.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\OOAD\\QuickBite-Tim17\\QuickBite\\QuickBite.csproj",
         "projectName": "QuickBite",
-        "projectPath": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\QuickBite.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\OOAD\\QuickBite-Tim17\\QuickBite\\QuickBite.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\Desktop\\QuickBite-Tim17\\QuickBite\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\OOAD\\QuickBite-Tim17\\QuickBite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
