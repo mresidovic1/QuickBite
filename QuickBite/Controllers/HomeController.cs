@@ -26,6 +26,10 @@ namespace QuickBite.Controllers
         {
             return View();
         }
+        public IActionResult Kosarica()
+        {
+            return RedirectToAction("Index", "Order");
+        }
         public IActionResult Kurir()
         {
             return RedirectToAction("Index","Kurir");

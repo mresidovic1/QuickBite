@@ -59,9 +59,9 @@ namespace QuickBite.Controllers
             {
                 var naplata = new Naplata
                 {
-                    VrstaNaplate = VrstaNaplate.Gotovina, // Zamijenite sa stvarnom vrstom naplate
-                    BrojKartice = 000000000, // Postavite odgovarajuću vrijednost ili ostavite kao 0
-                    Napomena = "Nova naplata" // Dodajte odgovarajuću napomenu ili ostavite kao prazno
+                    VrstaNaplate = VrstaNaplate.Gotovina, // Replace with the actual payment type
+                    BrojKartice = 000000000, // Set an appropriate value or leave as 0
+                    Napomena = "Nova naplata" // Add an appropriate note or leave as empty
                 };
                 _context.Naplata.Add(naplata);
                 await _context.SaveChangesAsync();
@@ -71,21 +71,28 @@ namespace QuickBite.Controllers
                     KorisnikId = currentUser.Id,
                     UsluznaJedinicaId = proizvod.UsluznaJedinicaId,
                     VrijemeNarudzbe = 0,
-                    Cijena = proizvod.Cijena ?? 0, // Postavljamo početnu cijenu na cijenu prvog dodanog proizvoda
+                    Cijena = proizvod.Cijena ?? 0, // Set the initial price to the price of the first added product
                     NaplataId = naplata.Id
                 };
                 _context.Narudzba.Add(narudzba);
+                await _context.SaveChangesAsync();
             }
             else
             {
-                narudzba.Cijena += proizvod.Cijena ?? 0; // Dodajemo cijenu novog proizvoda na ukupnu cijenu narudžbe
+                narudzba.Cijena += proizvod.Cijena ?? 0; // Add the price of the new product to the total order price
             }
+
+            var proizvodNarudzba = new ProizvodNarudzba
+            {
+                ProizvodId = proizvod.Id,
+                NarudzbaId = narudzba.Id
+            };
+            _context.ProizvodNarudzba.Add(proizvodNarudzba);
 
             await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index), new { usluznaJedinicaId = narudzba.UsluznaJedinicaId });
         }
-
 
 
         // GET: Items/Details/5

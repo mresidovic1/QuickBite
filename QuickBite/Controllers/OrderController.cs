@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -13,17 +14,47 @@ namespace QuickBite.Controllers
     public class OrderController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<Korisnik> _userManager;
 
-        public OrderController(ApplicationDbContext context)
+        public OrderController(ApplicationDbContext context, UserManager<Korisnik> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
-        // GET: Order
+        // GET: Orders
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Narudzba.Include(n => n.Korisnik).Include(n => n.Naplata).Include(n => n.UsluznaJedinica);
-            return View(await applicationDbContext.ToListAsync());
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            var narudzba = await _context.Narudzba
+                .Include(n => n.Korisnik)
+                .Include(n => n.UsluznaJedinica)
+                .Include(n => n.Naplata)
+                .Where(n => n.KorisnikId == currentUser.Id && n.VrijemeNarudzbe == 0)
+                .FirstOrDefaultAsync();
+
+            if (narudzba == null)
+            {
+                return View("EmptyOrder");
+            }
+
+            var proizvodiNarudzbe = await _context.ProizvodNarudzba
+                .Include(pn => pn.Proizvod)
+                .Where(pn => pn.NarudzbaId == narudzba.Id)
+                .ToListAsync();
+
+            var viewModel = new NarudzbaViewModel
+            {
+                Narudzba = narudzba,
+                Proizvodi = proizvodiNarudzbe.Select(pn => pn.Proizvod).ToList()
+            };
+
+            return View(viewModel);
         }
 
         // GET: Order/Details/5

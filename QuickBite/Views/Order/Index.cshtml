@@ -1,165 +1,187 @@
-﻿@model IEnumerable<QuickBite.Models.Narudzba>
+﻿@using QuickBite.Models
+@model NarudzbaViewModel
 
 @{
     ViewData["Title"] = "Index";
 }
 <style>
-    * {
+    .index-page * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
 
-    body {
-        font-family: Arial, sans-serif;
-        background: #FFFFFF;
-    }
-
-    .top-bar {
+    .index-page body{
         width: 100%;
-        background: #66CDAA;
-        padding: 20px;
-        text-align: left;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        background: #FFFFFF;
+        font-family: Arial, sans-serif;
     }
 
-    .logo {
-        color: white;
-        font-size: 24px;
-        font-weight: bold;
-    }
-
-    .container {
+    .index-page .container {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 20px;
-        max-width: 1200px;
+        width: 100%;
+        height: 100%;
         margin: 0 auto;
+        margin-top: 40px;
     }
 
-    .order-summary {
+    .index-page .order-summary {
         display: flex;
         justify-content: space-between;
         width: 100%;
         border-bottom: 1px solid #ccc;
-        padding-bottom: 20px;
+        padding-bottom: 5px;
     }
-
-    .order-details {
+    .index-page .order-details {
         flex: 1;
+        margin-right: 20px;
     }
 
-    .summary-item {
+    .index-page .summary-item {
         margin-bottom: 10px;
     }
 
-        .summary-item label {
+    .index-page .summary-item label {
             margin-right: 10px;
             font-weight: bold;
         }
 
-    .product-list {
-        flex: 1;
-    }
+    .index-page .product-list {
+    flow: 1;
+    max-height: 200px; /* Adjust this value as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    scrollbar-width: thin;
+        scrollbar-color: #00a082 #f1f1f1;
+}
 
-    .product-header {
+    .index-page .product-header {
         display: flex;
-        justify-content: space-between;
         font-weight: bold;
         margin-bottom: 10px;
     }
 
-    .product-item {
+    .index-page .product-item {
         display: flex;
         justify-content: space-between;
         margin-bottom: 5px;
     }
 
-        .product-item input {
+    .index-page .product-item input {
             flex: 1;
             text-align: center;
             margin-right: 5px;
             padding: 5px;
         }
 
-            .product-item input[type="text"] {
+    .index-page .product-item input[type="text"] {
                 border: 1px solid #ccc;
                 background: #f4f4f4;
                 text-align: right;
                 padding: 5px;
             }
 
-    .payment-method {
+    .index-page .payment-method {
         display: flex;
         align-items: center;
-        margin-top: 20px;
+        margin-top: 40px;
         width: 100%;
     }
 
-        .payment-method .image-item {
+    .index-page .payment-method .image-item {
             margin-right: 20px;
         }
 
-    .payment-options {
+    .index-page .payment-options {
         margin-left: 20px;
     }
 
-        .payment-options p {
+    .index-page .payment-options p {
             font-weight: bold;
             margin-bottom: 10px;
         }
 
-        .payment-options label {
+    .index-page .payment-options label {
             display: block;
             margin-bottom: 5px;
         }
 
-    .cart-image {
+    .index-page .cart-image {
         width: 100px;
         height: 100px;
         float: left;
         margin-right: 10px;
     }
 
-    .bottom-bar {
-        width: 100%;
-        background: #66CDAA;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
+     .index-page .bottom-bar {
+    width: 100%;
+    background: #66CDAA;
+    padding: 10px;
+    display: flex;
+    height: 10%;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.index-page .back-button,
+.confirm-button {
+    color: white;
+    font-size: 2.2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.list::-webkit-scrollbar {
+        width: 8px;
     }
 
-    .back-button,
-    .confirm-button {
-        color: white;
-        font-size: 2.2rem;
-        background: none;
-        border: none;
-        cursor: pointer;
+    .list::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 10px;
     }
 
-</style>
+    .list::-webkit-scrollbar-thumb {
+        background: #00a082;
+        border-radius: 10px;
+    }
+
+        .list::-webkit-scrollbar-thumb:hover {
+            background: #029a23;
+        }
+
+    .list::-webkit-scrollbar-corner {
+        background: transparent;
+    }
+
+</style
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>QuickBite</title>
     <link rel="stylesheet" href="košarica.css">
 </head>
-<body>
-    
-    <div class="top-bar">
-        <div class="logo">QuickBite</div>
-    </div>
-
+<body class="index-page">
     <div class="container">
         <div class="order-summary">
             <div class="order-details">
                 <div class="summary-item">
                     <label for="total-order">Ukupan iznos narudžbe:</label>
-                    <input type="text" id="total-order" readonly> KM
+                    <input type="text" id="total-order" value="@Model.Narudzba.Cijena" readonly> KM
                 </div>
                 <div class="summary-item">
                     <label for="discount">Ostvareni popust:</label>
@@ -167,36 +189,31 @@
                 </div>
                 <div class="summary-item">
                     <label for="total">Ukupno:</label>
-                    <input type="text" id="total" readonly> KM
+                    <input type="text" id="total" value="@Model.Narudzba.Cijena" readonly> KM
                 </div>
             </div>
             <div class="product-list">
                 <div class="product-header">
                     <span>Proizvod</span>
+                    <span style="margin-right: 130px;"></span>
                     <span>Količina</span>
+                    <span style="margin-right: 140px;"></span>
                     <span>Cijena</span>
                 </div>
-                <div class="product-item">
-                    <input type="text" readonly placeholder="Proizvod">
-                    <input type="text" readonly placeholder="Količina">
-                    <input type="text" readonly placeholder="Cijena"> KM
-                </div>
-                <div class="product-item">
-                    <input type="text" readonly placeholder="Proizvod">
-                    <input type="text" readonly placeholder="Količina">
-                    <input type="text" readonly placeholder="Cijena"> KM
-                </div>
-                <div class="product-item">
-                    <input type="text" readonly placeholder="Proizvod">
-                    <input type="text" readonly placeholder="Količina">
-                    <input type="text" readonly placeholder="Cijena"> KM
-                </div>
+                @foreach (var proizvod in Model.Proizvodi)
+                {
+                    <div class="product-item">
+                        <input type="text" readonly value="@proizvod.Naziv">
+                        <input type="text" readonly value="1"> 
+                        <input type="text" readonly value="@proizvod.Cijena"> KM
+                    </div>
+                }
             </div>
         </div>
 
         <div class="payment-method">
             <div class="image-item">
-                <img src="images/kosarica.jpg" alt="kosarica" class="image-item responsive" style="width: 100px; height: 100px;">
+                <img src="/images/kosarica.jpg" alt="kosarica" class="image-item responsive" style="width: 100px; height: 100px;">
             </div>
             <div class="payment-options">
                 <p>Izaberite način plaćanja:</p>
