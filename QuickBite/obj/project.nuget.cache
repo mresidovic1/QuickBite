@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HbP5arhnkaUcswwgTB8Bu7iiBwR2f/z7yTxMsW/xGSLkQy2oBgVLeejrRBtP8QQFQ6/h1Kj6ynmJEPIntJpZCA==",
+  "dgSpecHash": "GCtN4+pkStSd6mc41bf6Dp4Z8j+Emdn1F7gBePUFoAuQqenDdFprNMn2RCtQBjTgL/eh+EIlgP/YaltGSwvecA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\OOAD\\QuickBite-Tim17\\QuickBite\\QuickBite.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\QuickBite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

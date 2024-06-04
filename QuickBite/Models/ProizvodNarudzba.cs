@@ -15,5 +15,6 @@ namespace QuickBite.Models
         public int NarudzbaId { get; set; }
         public Narudzba Narudzba { get; set; }
         public Proizvod Proizvod { get; set; }
+        public int? Kolicina { get; set; }
     }
 }

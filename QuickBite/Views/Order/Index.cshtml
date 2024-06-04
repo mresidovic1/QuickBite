@@ -185,11 +185,11 @@
                 </div>
                 <div class="summary-item">
                     <label for="discount">Ostvareni popust:</label>
-                    <input type="text" id="discount" readonly> KM
+                    <input type="text" id="discount" value="@Model.Narudzba.Popust" readonly> KM
                 </div>
                 <div class="summary-item">
                     <label for="total">Ukupno:</label>
-                    <input type="text" id="total" value="@Model.Narudzba.Cijena" readonly> KM
+                    <input type="text" id="total" value="@(Model.Narudzba.Cijena - (Model.Narudzba.Popust ?? 0))" readonly> KM
                 </div>
             </div>
             <div class="product-list">
@@ -200,12 +200,12 @@
                     <span style="margin-right: 140px;"></span>
                     <span>Cijena</span>
                 </div>
-                @foreach (var proizvod in Model.Proizvodi)
+                @foreach (var proizvodNarudzba in Model.ProizvodiNarudzbe)
                 {
                     <div class="product-item">
-                        <input type="text" readonly value="@proizvod.Naziv">
-                        <input type="text" readonly value="1"> 
-                        <input type="text" readonly value="@proizvod.Cijena"> KM
+                        <input type="text" readonly value="@proizvodNarudzba.Proizvod.Naziv">
+                        <input type="text" readonly value="@proizvodNarudzba.Kolicina"> 
+                        <input type="text" readonly value="@proizvodNarudzba.Proizvod.Cijena"> KM
                     </div>
                 }
             </div>
@@ -231,7 +231,9 @@
 
     <div class="bottom-bar">
         <button class="back-button">←</button>
-        <button class="confirm-button">✓</button>
+    <form asp-action="Confirm" method="post">
+        <button type="submit" class="confirm-button">✓</button>
+    </form>
     </div>
 </body>
 </html>

@@ -36,6 +36,7 @@ namespace QuickBite.Controllers
                 .Include(n => n.UsluznaJedinica)
                 .Include(n => n.Naplata)
                 .Where(n => n.KorisnikId == currentUser.Id && n.VrijemeNarudzbe == 0)
+                .OrderByDescending(n => n.Id)  // Assuming Id is the primary key
                 .FirstOrDefaultAsync();
 
             if (narudzba == null)
@@ -51,7 +52,7 @@ namespace QuickBite.Controllers
             var viewModel = new NarudzbaViewModel
             {
                 Narudzba = narudzba,
-                Proizvodi = proizvodiNarudzbe.Select(pn => pn.Proizvod).ToList()
+                ProizvodiNarudzbe = proizvodiNarudzbe
             };
 
             return View(viewModel);
@@ -183,6 +184,48 @@ namespace QuickBite.Controllers
 
             return View(narudzba);
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Confirm()
+        {
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            // Pronalazi trenutnu narudžbu korisnika
+            var currentOrder = await _context.Narudzba
+                .Where(n => n.KorisnikId == currentUser.Id && n.VrijemeNarudzbe == 0)
+                .OrderByDescending(n => n.Id)
+                .FirstOrDefaultAsync();
+
+            if (currentOrder == null)
+            {
+                // Ako trenutna narudžba ne postoji, vratimo se na početnu stranicu
+                return RedirectToAction("Index", "Home");
+            }
+
+            var naplata = new Naplata
+            {
+                VrstaNaplate = VrstaNaplate.Kartica, // Zamijenite s pravim tipom plaćanja
+                BrojKartice = 1111111,
+                Napomena = "Najnovija naplata"
+            };
+            _context.Naplata.Add(naplata);
+            await _context.SaveChangesAsync();
+
+            // Ažuriramo vrijednost VrijemeNarudzbe na trenutni datum i vrijeme
+            currentOrder.VrijemeNarudzbe = (int)DateTimeOffset.UtcNow.ToUnixTimeSeconds();
+
+            // Ažuriramo trenutnu narudžbu u bazi podataka
+            _context.Narudzba.Update(currentOrder);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("MapView", "Home");
+        }
+
 
         // POST: Order/Delete/5
         [HttpPost, ActionName("Delete")]

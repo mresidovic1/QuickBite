@@ -8,6 +8,7 @@ namespace QuickBite.Models
         [Key]
         public int Id { get; set; }
         public int Cijena { get; set; }
+        public int? Popust { get; set; }
         public int VrijemeNarudzbe { get; set; }
         [ForeignKey("UsluznaJedinica")]
         public int UsluznaJedinicaId { get; set; }

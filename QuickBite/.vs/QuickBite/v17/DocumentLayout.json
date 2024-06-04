@@ -1,10 +1,110 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\OOAD\\QuickBite-Tim17\\QuickBite\\",
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\ooad\\quickbite-tim17\\quickbite\\models\\proizvodnarudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\views\\kurir\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:views\\kurir\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\views\\place\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:views\\place\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\controllers\\placecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:controllers\\placecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\views\\home\\mapview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:views\\home\\mapview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\models\\narudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\narudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\views\\items\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:views\\items\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\controllers\\kurircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:controllers\\kurircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\models\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\adminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\models\\usluznajedinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\usluznajedinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\models\\narudzbaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\narudzbaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\models\\proizvod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\proizvod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\models\\proizvodnarudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\proizvodnarudzba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\models\\naplata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:models\\naplata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\data\\migrations\\20240604135800_migracijab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:data\\migrations\\20240604135800_migracijab.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\data\\migrations\\20240604134215_migracijaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:data\\migrations\\20240604134215_migracijaa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +114,334 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProizvodNarudzba.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOAD\\QuickBite-Tim17\\QuickBite\\Models\\ProizvodNarudzba.cs",
-              "RelativeDocumentMoniker": "Models\\ProizvodNarudzba.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOAD\\QuickBite-Tim17\\QuickBite\\Models\\ProizvodNarudzba.cs",
-              "RelativeToolTip": "Models\\ProizvodNarudzba.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T23:59:45.961Z",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAACkAAAAAAAAAAAAYwD0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T21:15:34.419Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Narudzba.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Models\\Narudzba.cs",
+              "RelativeDocumentMoniker": "Models\\Narudzba.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Models\\Narudzba.cs",
+              "RelativeToolTip": "Models\\Narudzba.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:40:28.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAM8AAAAAAAAAAAAAANUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T14:46:33.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ItemsController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "Controllers\\ItemsController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAQwC4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:43:10.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAIwF8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:42:52.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AQIAAMAAAAAAAAAAAAAIwOEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:40:09.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Views\\Kurir\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Kurir\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Views\\Kurir\\Index.cshtml",
+              "RelativeToolTip": "Views\\Kurir\\Index.cshtml",
+              "ViewState": "AQIAANIAAAAAAAAAAAAIwOMAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T16:10:40.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Views\\Place\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Place\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Views\\Place\\Index.cshtml",
+              "RelativeToolTip": "Views\\Place\\Index.cshtml",
+              "ViewState": "AQIAANUAAAAAAAAAAAAAAOcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T21:49:52.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Korisnik.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Models\\Korisnik.cs",
+              "RelativeDocumentMoniker": "Models\\Korisnik.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Models\\Korisnik.cs",
+              "RelativeToolTip": "Models\\Korisnik.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T16:11:04.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:42:39.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "KurirController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Controllers\\KurirController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KurirController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Controllers\\KurirController.cs",
+              "RelativeToolTip": "Controllers\\KurirController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:43:31.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MapView.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Views\\Home\\MapView.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\MapView.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Views\\Home\\MapView.cshtml",
+              "RelativeToolTip": "Views\\Home\\MapView.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T21:04:35.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlaceController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Controllers\\PlaceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PlaceController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Controllers\\PlaceController.cs",
+              "RelativeToolTip": "Controllers\\PlaceController.cs",
+              "ViewState": "AQIAAAgBAAAAAAAAAAAIwBAAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:43:45.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T16:42:49.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Views\\Items\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Items\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Views\\Items\\Index.cshtml",
+              "RelativeToolTip": "Views\\Items\\Index.cshtml",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAYwJUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T14:46:17.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "Views\\Order\\Index.cshtml",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAYwOoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T13:38:05.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Models\\AdminViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\AdminViewModel.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Models\\AdminViewModel.cs",
+              "RelativeToolTip": "Models\\AdminViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T16:42:29.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterConfirmation.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T16:42:58.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UsluznaJedinica.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Models\\UsluznaJedinica.cs",
+              "RelativeDocumentMoniker": "Models\\UsluznaJedinica.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Models\\UsluznaJedinica.cs",
+              "RelativeToolTip": "Models\\UsluznaJedinica.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T15:05:11.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NarudzbaViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Models\\NarudzbaViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\NarudzbaViewModel.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Models\\NarudzbaViewModel.cs",
+              "RelativeToolTip": "Models\\NarudzbaViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:01:49.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20240604135800_migracijaB.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Data\\Migrations\\20240604135800_migracijaB.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240604135800_migracijaB.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Data\\Migrations\\20240604135800_migracijaB.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240604135800_migracijaB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:58:00.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProizvodNarudzba.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Models\\ProizvodNarudzba.cs",
+              "RelativeDocumentMoniker": "Models\\ProizvodNarudzba.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Models\\ProizvodNarudzba.cs",
+              "RelativeToolTip": "Models\\ProizvodNarudzba.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T23:59:45.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Proizvod.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Models\\Proizvod.cs",
+              "RelativeDocumentMoniker": "Models\\Proizvod.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Models\\Proizvod.cs",
+              "RelativeToolTip": "Models\\Proizvod.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:38:39.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20240604134215_migracijaA.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Data\\Migrations\\20240604134215_migracijaA.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240604134215_migracijaA.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Data\\Migrations\\20240604134215_migracijaA.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240604134215_migracijaA.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:42:15.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Naplata.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Models\\Naplata.cs",
+              "RelativeDocumentMoniker": "Models\\Naplata.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Models\\Naplata.cs",
+              "RelativeToolTip": "Models\\Naplata.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:40:25.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:35:28.875Z"
             }
           ]
         }

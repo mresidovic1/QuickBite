@@ -53,15 +53,16 @@ namespace QuickBite.Controllers
             }
 
             var narudzba = await _context.Narudzba
-                .FirstOrDefaultAsync(n => n.KorisnikId == currentUser.Id && n.VrijemeNarudzbe == 0);
+                .Where(n => n.KorisnikId == currentUser.Id && n.VrijemeNarudzbe == 0)
+                .OrderByDescending(n => n.Id)  // Assuming Id is the primary key
+                .FirstOrDefaultAsync();
 
             if (narudzba == null)
             {
                 var naplata = new Naplata
                 {
-                    VrstaNaplate = VrstaNaplate.Gotovina, // Replace with the actual payment type
-                    BrojKartice = 000000000, // Set an appropriate value or leave as 0
-                    Napomena = "Nova naplata" // Add an appropriate note or leave as empty
+                    VrstaNaplate = VrstaNaplate.Gotovina,
+                    Napomena = "Nova naplata"
                 };
                 _context.Naplata.Add(naplata);
                 await _context.SaveChangesAsync();
@@ -71,24 +72,42 @@ namespace QuickBite.Controllers
                     KorisnikId = currentUser.Id,
                     UsluznaJedinicaId = proizvod.UsluznaJedinicaId,
                     VrijemeNarudzbe = 0,
-                    Cijena = proizvod.Cijena ?? 0, // Set the initial price to the price of the first added product
+                    Cijena = 0,
                     NaplataId = naplata.Id
                 };
                 _context.Narudzba.Add(narudzba);
                 await _context.SaveChangesAsync();
             }
+
+            var proizvodNarudzba = await _context.ProizvodNarudzba
+    .Where(pn => pn.NarudzbaId == narudzba.Id && pn.ProizvodId == proizvod.Id)
+    .OrderByDescending(pn => pn.Id)  // Pretpostavljajući da je Id primarni ključ
+    .FirstOrDefaultAsync();
+
+            if (proizvodNarudzba == null)
+            {
+                proizvodNarudzba = new ProizvodNarudzba
+                {
+                    ProizvodId = proizvod.Id,
+                    NarudzbaId = narudzba.Id,
+                    Kolicina = 1
+                };
+                _context.ProizvodNarudzba.Add(proizvodNarudzba);
+            }
             else
             {
-                narudzba.Cijena += proizvod.Cijena ?? 0; // Add the price of the new product to the total order price
+                proizvodNarudzba.Kolicina += 1;
             }
 
-            var proizvodNarudzba = new ProizvodNarudzba
+            narudzba.Cijena += proizvod.Cijena ?? 0;
+            if (narudzba.Cijena > 30)
             {
-                ProizvodId = proizvod.Id,
-                NarudzbaId = narudzba.Id
-            };
-            _context.ProizvodNarudzba.Add(proizvodNarudzba);
-
+                narudzba.Popust = (int)(narudzba.Cijena * 0.1);
+            }
+            else
+            {
+                narudzba.Popust = 0;
+            }
             await _context.SaveChangesAsync();
 
             return RedirectToAction(nameof(Index), new { usluznaJedinicaId = narudzba.UsluznaJedinicaId });

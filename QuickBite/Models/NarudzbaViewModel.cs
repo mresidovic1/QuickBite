@@ -3,6 +3,7 @@
     public class NarudzbaViewModel
     {
         public Narudzba Narudzba { get; set; }
-        public List<Proizvod> Proizvodi { get; set; }
+        public List<ProizvodNarudzba> ProizvodiNarudzbe { get; set; }
+
     }
 }

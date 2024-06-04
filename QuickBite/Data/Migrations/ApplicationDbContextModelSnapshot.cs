@@ -302,6 +302,9 @@ namespace QuickBite.Data.Migrations
                     b.Property<int>("NaplataId")
                         .HasColumnType("int");
 
+                    b.Property<int?>("Popust")
+                        .HasColumnType("int");
+
                     b.Property<int>("UsluznaJedinicaId")
                         .HasColumnType("int");
 
@@ -359,6 +362,9 @@ namespace QuickBite.Data.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("Kolicina")
+                        .HasColumnType("int");
 
                     b.Property<int>("NarudzbaId")
                         .HasColumnType("int");

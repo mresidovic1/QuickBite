@@ -39,10 +39,9 @@
     .search-bar {
         position: absolute;
         top: 15%;
-        left: 47%;
+        left: 47%; /* Pomjerite button ulijevo */
         width: 25%;
         height: 7.5%;
-        background-image: url('/images/ikonica-lupe.png');
         background-size: 40px;
         background-position: 10px center;
         background-repeat: no-repeat;
@@ -50,6 +49,19 @@
         border-radius: 4px;
         padding-left: 60px;
     }
+
+        .search-bar button {
+            position: absolute;
+            top: 50%; /* Postavite na sredinu po visini */
+            left: 10px;
+            transform: translateY(-50%); /* Centrirajte po visini */
+            background-color: #FFF; /* Postavite boju */
+            border: none; /* Uklonite border */
+            border-radius: 4px;
+            padding: 8px; /* Dodajte malo paddinga za ljepši izgled */
+            color: #00a082; /* Postavite boju teksta */
+        }
+
 
         .search-bar input[type="text"] {
             width: 100%;
@@ -142,9 +154,12 @@
 </head>
 <body>
     <section>
-        <div class="search-bar">
-            <input type="text" placeholder="Pretraži">
-        </div>
+        <form method="post" action="@Url.Action("Search", "Home")">
+            <div class="search-bar">
+                <input type="text" name="searchTerm" placeholder="Pretraži">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+        </form>
         <div class="reklama">
             <p>Uštedi vrijeme.</p>
             <p>Pozovi <span class="quickbite">QuickBite</span>.</p>
