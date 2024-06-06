@@ -136,7 +136,10 @@
                         <div class="price">@item.Cijena KM</div>
                         <form asp-action="DodajUNarudzbu" method="post">
                             <input type="hidden" name="proizvodId" value="@item.Id" />
-                            <button type="submit" class="add-button">DODAJ</button>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <button type="submit" class="add-button">DODAJ</button>
+                            }
                         </form>
                     </div>
                 }

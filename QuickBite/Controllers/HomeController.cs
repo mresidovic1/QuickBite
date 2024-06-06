@@ -22,8 +22,6 @@ namespace QuickBite.Controllers
             _context = context; // Dodajte kontekst baze podataka
         }
 
-
-
         public IActionResult Index()
         {
             return View();

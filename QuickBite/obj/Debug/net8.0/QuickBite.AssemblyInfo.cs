@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuickBite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c4f3757ba17f2ca91bba70dc0d7b5a3b41ff522")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7e2e3bcfe2e238b5701e568ea0ade00456ddb50")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuickBite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuickBite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -165,7 +165,54 @@ namespace QuickBite.Areas.Identity.Pages.Account
                 message.To.Add(new MailAddress(email));
                 message.Subject = subject;
                 message.IsBodyHtml = true;
-                message.Body = confirmLink;
+                message.Body = $@"
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {{
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }}
+        .container {{
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }}
+        .header {{
+            text-align: center;
+            padding: 10px 0;
+        }}
+        .content {{
+            margin: 20px 0;
+        }}
+        .footer {{
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+        }}
+    </style>
+</head>
+<body>
+    <div class='container'>
+        <div class='header'>
+            <h2>Dobrodošli u QuickBite!</h2>
+        </div>
+        <div class='content'>
+            <p>Poštovani,</p>
+            <p>Hvala vam što ste se registrirali na QuickBite. Da biste dovršili registraciju, molimo vas da potvrdite svoju email adresu klikom na donji link:</p>
+            <p>{confirmLink}</p>
+            <p>Ako niste inicirali ovu registraciju, molimo vas da zanemarite ovaj email.</p>
+        </div>
+        <div class='footer'>
+            <p>Srdačan pozdrav,<br>QuickBite tim</p>
+        </div>
+    </div>
+</body>
+</html>";
 
                 var smtpClient = new SmtpClient("smtp.gmail.com")
                 {
