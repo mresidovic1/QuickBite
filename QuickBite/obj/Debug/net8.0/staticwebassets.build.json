@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ukLQg5tvc0Glh7Qlys40YNWFSvXdzrLs1msiVv6w1xw=",
+  "Hash": "3dLcmukewANYOA8QFHMruI53mXDFEpjg3S4uufpPBIs=",
   "Source": "QuickBite",
   "BasePath": "_content/QuickBite",
   "Mode": "Default",
@@ -1537,25 +1537,6 @@
       "OriginalItemSpec": "wwwroot\\images\\Burger King.jpg"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Cheeseburger.jpg",
-      "SourceId": "QuickBite",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
-      "BasePath": "_content/QuickBite",
-      "RelativePath": "images/Cheeseburger.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Cheeseburger.jpg"
-    },
-    {
       "Identity": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Ćevabdžinica Hodžić.jpg",
       "SourceId": "QuickBite",
       "SourceType": "Discovered",
@@ -1592,6 +1573,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Ćevapi.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Cheeseburger.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Cheeseburger.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Cheeseburger.jpg"
     },
     {
       "Identity": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\deliveryman.jpg",
@@ -2563,6 +2563,25 @@
       "OriginalItemSpec": "wwwroot\\images\\service.jpg"
     },
     {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Šnicla.jpg",
+      "SourceId": "QuickBite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
+      "BasePath": "_content/QuickBite",
+      "RelativePath": "images/Šnicla.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Šnicla.jpg"
+    },
+    {
       "Identity": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\So.jpeg",
       "SourceId": "QuickBite",
       "SourceType": "Discovered",
@@ -2637,25 +2656,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Supa.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Šnicla.jpg",
-      "SourceId": "QuickBite",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\wwwroot\\",
-      "BasePath": "_content/QuickBite",
-      "RelativePath": "images/Šnicla.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Šnicla.jpg"
     },
     {
       "Identity": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\wwwroot\\images\\Tataki tuna.jpg",

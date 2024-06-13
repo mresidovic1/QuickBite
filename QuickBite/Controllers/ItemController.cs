@@ -11,12 +11,12 @@ using QuickBite.Models;
 
 namespace QuickBite.Controllers
 {
-    public class ItemsController : Controller
+    public class ItemController : Controller
     {
         private readonly ApplicationDbContext _context;
         private readonly UserManager<Korisnik> _userManager;
 
-        public ItemsController(ApplicationDbContext context, UserManager<Korisnik> userManager)
+        public ItemController(ApplicationDbContext context, UserManager<Korisnik> userManager)
         {
             _context = context;
             _userManager = userManager;

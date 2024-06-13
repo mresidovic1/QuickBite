@@ -106,7 +106,7 @@
             opacity: 0.8;
         }
 
-    #restaurants {
+    #restaurants,#couriers {
         height: 400px;
     }
 
@@ -123,7 +123,7 @@
 
     .buttons {
         position: absolute;
-        margin-left: 30.2%;
+        margin-left: 30.3%;
         bottom: 12.5%;
     }
 
@@ -213,7 +213,8 @@
             <div class="list" id="users">
                 <h2>Korisnici</h2>
                 <ul>
-                    @foreach (var item in Model.Korisnici) {
+                    @foreach (var item in Model.Korisnici)
+                    {
                         <li>@item.UserName <span>@item.BrojNarudzbi</span></li>
                     }
                 </ul>
@@ -249,8 +250,21 @@
             </div>
         </div>
         <div class="buttons">
-            <span style="margin-left: 400px;"></span>
+            <button onclick="showAddCourierModal()">Dodaj novog kurira</button>
+            <span style="margin-left: 237.5px;"></span>
             <button onclick="showAddRestaurantModal()">Dodaj novo mjesto</button>
+        </div>
+        <div id="addCourierModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="hideAddCourierModal()">&times;</span>
+                <h2>Dodaj novog kurira</h2>
+                <form id="addCourierForm">
+                    <label for="CourierEmail">Email:</label>
+                    <input type="email" name="CourierEmail" id="CourierEmail" required /><br />
+                    <button type="submit">Dodaj</button>
+                    <button type="button" onclick="hideAddCourierModal()">Otkaži</button>
+                </form>
+            </div>
         </div>
         <div id="addRestaurantModal" class="modal">
             <div class="modal-content">
@@ -275,38 +289,67 @@
     </div>
 
     <script>
-            function showAddRestaurantModal() {
-                document.getElementById('addRestaurantModal').style.display = 'block';
+        function showAddCourierModal() {
+            document.getElementById('addCourierModal').style.display = 'block';
+        }
+
+        function hideAddCourierModal() {
+            document.getElementById('addCourierModal').style.display = 'none';
+        }
+
+        function showAddRestaurantModal() {
+            document.getElementById('addRestaurantModal').style.display = 'block';
+        }
+
+        function hideAddRestaurantModal() {
+            document.getElementById('addRestaurantModal').style.display = 'none';
+        }
+
+        window.onclick = function (event) {
+            var courierModal = document.getElementById('addCourierModal');
+            var restaurantModal = document.getElementById('addRestaurantModal');
+            if (event.target == courierModal) {
+                courierModal.style.display = "none";
+            } else if (event.target == restaurantModal) {
+                restaurantModal.style.display = "none";
             }
+        }
 
-            function hideAddRestaurantModal() {
-                document.getElementById('addRestaurantModal').style.display = 'none';
-            }
+        document.getElementById('addCourierForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            var formData = new FormData(this);
 
-            window.onclick = function (event) {
-                var restaurantModal = document.getElementById('addRestaurantModal');
-                if (event.target == restaurantModal) {
-                    restaurantModal.style.display = "none";
-                }
-            }
-
-            document.getElementById('addRestaurantForm').addEventListener('submit', function (event) {
-                event.preventDefault();
-                var formData = new FormData(this);
-
-                fetch('@Url.Action("Create", "Admin")', {
-                    method: 'POST',
-                    body: formData,
+            fetch('@Url.Action("AddCourier", "Admin")', {
+                method: 'POST',
+                body: formData,
+            })
+                .then(response => {
+                    if (response.ok) {
+                        location.reload();
+                    } else {
+                        response.text().then(text => alert(text));
+                    }
                 })
-                    .then(response => {
-                        if (response.ok) {
-                            location.reload();
-                        } else {
-                            response.text().then(text => alert(text));
-                        }
-                    })
-                    .catch(error => console.error('Error:', error));
-            });
+                .catch(error => console.error('Error:', error));
+        });
+
+        document.getElementById('addRestaurantForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            var formData = new FormData(this);
+
+            fetch('@Url.Action("Create", "Admin")', {
+                method: 'POST',
+                body: formData,
+            })
+                .then(response => {
+                    if (response.ok) {
+                        location.reload();
+                    } else {
+                        response.text().then(text => alert(text));
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        });
     </script>
 </body>
 </html>

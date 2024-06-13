@@ -41,7 +41,23 @@ namespace QuickBite.Controllers
 
             if (narudzba == null)
             {
-                return View("EmptyOrder");
+                var praznaNarudzba = new Narudzba
+                {
+                    Id = 0,
+                    Cijena = 0,
+                    VrijemeNarudzbe = 0,
+                    UsluznaJedinicaId = 0,
+                    NaplataId = 0,
+                    KorisnikId = currentUser.Id,
+                };
+
+                var prazniViewModel = new NarudzbaViewModel
+                {
+                    Narudzba = praznaNarudzba,
+                    ProizvodiNarudzbe = new List<ProizvodNarudzba>()
+                };
+
+                return View(prazniViewModel);
             }
 
             var proizvodiNarudzbe = await _context.ProizvodNarudzba

@@ -86,24 +86,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LENOVO/Desktop/HTML/QuickBite-Tim17/QuickBite/Views/Items/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcQ3JlYXRlLmNzaHRtbA==
+[C:/Users/LENOVO/Desktop/HTML/QuickBite-Tim17/QuickBite/Views/Item/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LENOVO/Desktop/HTML/QuickBite-Tim17/QuickBite/Views/Items/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcRGVsZXRlLmNzaHRtbA==
+[C:/Users/LENOVO/Desktop/HTML/QuickBite-Tim17/QuickBite/Views/Item/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LENOVO/Desktop/HTML/QuickBite-Tim17/QuickBite/Views/Items/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcRGV0YWlscy5jc2h0bWw=
+[C:/Users/LENOVO/Desktop/HTML/QuickBite-Tim17/QuickBite/Views/Item/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LENOVO/Desktop/HTML/QuickBite-Tim17/QuickBite/Views/Items/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcRWRpdC5jc2h0bWw=
+[C:/Users/LENOVO/Desktop/HTML/QuickBite-Tim17/QuickBite/Views/Item/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/LENOVO/Desktop/HTML/QuickBite-Tim17/QuickBite/Views/Items/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbXNcSW5kZXguY3NodG1s
+[C:/Users/LENOVO/Desktop/HTML/QuickBite-Tim17/QuickBite/Views/Item/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/LENOVO/Desktop/HTML/QuickBite-Tim17/QuickBite/Views/Kurir/Create.cshtml]

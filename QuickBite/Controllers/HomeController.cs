@@ -85,7 +85,7 @@ namespace QuickBite.Controllers
 
             if (foundPlace != null)
             {
-                return RedirectToAction("Index", "Items", new { usluznaJedinicaId = foundPlace.Id });
+                return RedirectToAction("Index", "Item", new { usluznaJedinicaId = foundPlace.Id });
             }
             else
             {

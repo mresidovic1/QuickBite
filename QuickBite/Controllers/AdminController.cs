@@ -186,6 +186,30 @@ namespace QuickBite.Controllers
             return _context.UsluznaJedinica.Any(e => e.Id == id);
         }
 
+        // POST: Admin/AddCourier
+        [HttpPost]
+        public async Task<IActionResult> AddCourier(string courierEmail)
+        {
+            if (string.IsNullOrEmpty(courierEmail))
+            {
+                return BadRequest("Email is required");
+            }
+
+            var user = await _userManager.FindByEmailAsync(courierEmail);
+            if (user == null)
+            {
+                return NotFound("User not found");
+            }
+
+            var result = await _userManager.AddToRoleAsync(user, "Kurir");
+            if (!result.Succeeded)
+            {
+                return StatusCode(500, "Failed to add user to the role");
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+
         // GET: Admin/DeleteCourier/5
         public async Task<IActionResult> DeleteCourier(string id)
         {
