@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\views\\place\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:views\\place\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\views\\place\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|solutionrelative:views\\place\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9103AD4-E3D7-42DA-BA1E-B1CF66C72DEB}|QuickBite.csproj|c:\\users\\lenovo\\desktop\\html\\quickbite-tim17\\quickbite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -82,11 +82,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Views\\Place\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Place\\Index.cshtml",
@@ -112,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -125,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -138,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "serviceDependencies.json",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\HTML\\QuickBite-Tim17\\QuickBite\\Properties\\serviceDependencies.json",
               "RelativeDocumentMoniker": "Properties\\serviceDependencies.json",

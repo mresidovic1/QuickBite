@@ -20,4 +20,8 @@ Konekcijski string za bazu podataka:
 "Data Source=SQL8010.site4now.net;Initial Catalog=db_aa9215_quickbitedatabase;User Id=db_aa9215_quickbitedatabase_admin;Password=quickbite1"
 
 Link za web stranicu:
-https://win8118.site4now.net:8172/MsDeploy.axd?site=quickbitedbase-001-site1
+http://quickbitedbase-001-site1.dtempurl.com/
+
+//verifikacija web stranice zbog nezasticene stranice
+.username: 11178517
+.password: 60-dayfreetrial
